@@ -1,0 +1,3693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dome1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/swiper.animate-twice.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/home_page.css">
+    <style type="text/css">
+        /**{*/
+            /*padding: 0;*/
+            /*margin: 0;*/
+        /*}*/
+        /*@media screen and (min-width: 480px) {*/
+            /*.domePC1 {*/
+                /*min-width: 1200px;*/
+            /*}*/
+
+            /*.domePC1>div{*/
+                /*width: 100%;*/
+            /*}*/
+
+            /*.domePC1-title {*/
+                /*width: 1200px;*/
+                /*height: 110px;*/
+                /*margin: auto;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+
+            /*.domePC1-title > div:nth-child(2) {*/
+                /*margin-right: 20px;*/
+            /*}*/
+
+            /*.domePC1-title > div:nth-child(4) {*/
+                /*margin-left: 400px;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+            /*}*/
+
+            /*.domePC1-title > div:nth-child(4) > div:nth-child(2) {*/
+                /*margin-left: 8px;*/
+            /*}*/
+
+            /*.domePC1-title > div:nth-child(4) > div:nth-child(2) > p:first-child {*/
+                /*font-size: 16px;*/
+                /*color: #333333;*/
+            /*}*/
+
+            /*.domePC1-title > div:nth-child(4) > div:nth-child(2) > p:nth-child(2) {*/
+                /*font-size: 32px;*/
+                /*color: #e70012;*/
+            /*}*/
+
+            /*.domePC1-nav {*/
+                /*height: 48px;*/
+                /*background-color: #d00010;*/
+                /*width: 100%;*/
+            /*}*/
+
+            /*.domePC1-nav > div {*/
+                /*width: 1200px;*/
+                /*!*height: 48px;*!*/
+                /*margin: auto;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*!*text-align: center;*!*/
+            /*}*/
+
+            /*.domePC1-nav > div > div {*/
+                /*height: 36px;*/
+                /*padding-top: 12px;*/
+                /*color: #f5f5f5;*/
+                /*font-size: 16px;*/
+                /*width: 150px;*/
+                /*text-align: center;*/
+            /*}*/
+
+            /*.domePC1-nav > div > div:hover {*/
+                /*color: #d00010;*/
+                /*font-size: 16px;*/
+                /*background-color: #f3bd8c;*/
+            /*}*/
+
+            /*.domePC1-nav > div > span {*/
+                /*width: 1px;*/
+                /*height: 16px;*/
+                /*background-color: #ffffff;*/
+            /*}*/
+
+            /*.domePC1-content {*/
+                /*width: 100%;*/
+                /*height: 500px;*/
+            /*}*/
+
+            /*.domePC1-content > div > div:first-child > div > div {*/
+                /*background-image: url("img/首页-banner.png");*/
+                /*width: 100%;*/
+                /*height: 500px;*/
+                /*background-size: 100% 500px;*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+
+            /*.domePC1-content img {*/
+                /*width: 100%;*/
+                /*height: 500px;*/
+            /*}*/
+
+
+                /*.domePC2 {*/
+                    /*min-width: 1200px;*/
+                /*}*/
+                /*.domePC2>div{*/
+                    /*width: 100%;*/
+                    /*min-height: 805px;*/
+                    /*!*background-color: #fffcf7;*!*/
+                    /*background:#fffcf7 url("img/背景装饰-1.png") no-repeat left bottom;*/
+                /*}*/
+
+                /*.domePC2-title>div{*/
+                    /*width: 1200px;*/
+                    /*margin: auto;*/
+                /*}*/
+                /*.domePC2-title-1 {*/
+                    /*padding-top: 60px;*/
+                    /*width: 100%;*/
+                    /*!*height: 100px;*!*/
+                    /*display: flex;*/
+                    /*align-items: center;*/
+                    /*justify-content: center;*/
+                /*}*/
+
+                /*.domePC2-title-1>p{*/
+                    /*color: #4d4646;*/
+                    /*font-size: 42px;*/
+                    /*!*margin-top: 80px;*!*/
+                /*}*/
+                /*.domePC2-br {*/
+                    /*width: 441px;*/
+                    /*height: 1px;*/
+                    /*background-color: #cccccc;*/
+                    /*margin: auto;*/
+                /*}*/
+                /*.domePC2-br div{*/
+                    /*width: 40px;*/
+                    /*background-color: #e70012;*/
+                    /*height: 3px;*/
+                    /*margin: auto;*/
+                /*}*/
+                /*.domePC2-title-3 {*/
+                    /*text-align: center;*/
+                    /*color: #666666;*/
+                    /*font-size: 14px;*/
+                    /*margin-top: 20px;*/
+                /*}*/
+
+                /*.domePC2-content{*/
+                    /*margin: auto;*/
+                    /*margin-top: 40px;*/
+                    /*width: 100%;*/
+                /*}*/
+                /*.domePC2-content-1{*/
+                    /*position: relative;*/
+                    /*width: 100%;*/
+                    /*height: 404px;*/
+                /*}*/
+                /*.domePC2-content-1>div{*/
+                    /*display: flex;*/
+                    /*align-items: center;*/
+                    /*width: 1200px;*/
+                    /*height: 404px;*/
+                    /*margin: auto;*/
+                    /*position: absolute;*/
+                    /*left: 50%;*/
+                    /*margin-left: -600px;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:first-child{*/
+                    /*padding-right: 60px;*/
+                    /*padding-left: 40px;*/
+                    /*width: 500px;*/
+                    /*height: 404px;*/
+                    /*background-color: #f5ede5;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:first-child>p:first-child{*/
+                    /*margin-top: 58px;*/
+                    /*font-size: 24px;*/
+                    /*color: #333333;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:first-child>p:nth-child(2){*/
+                    /*font-size: 12px;*/
+                    /*color: #999999;*/
+                    /*margin-top: 12px;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:first-child>p:nth-child(3){*/
+                    /*font-size: 14px;*/
+                    /*color: #666666;*/
+                    /*margin-top: 24px;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:first-child>div {*/
+                    /*margin-top: 50px;*/
+                    /*width: 160px;*/
+                    /*height: 32px;*/
+                    /*background-color: #e70012;*/
+                    /*border-radius: 2px;*/
+                    /*color: #ffffff;*/
+                    /*font-size: 16px;*/
+                    /*text-align: center;*/
+                    /*padding-top: 10px;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:first-child>div:hover{*/
+                    /*background-color: #d0001d;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:nth-child(2){*/
+                    /*width: 600px;*/
+                    /*height: 404px;*/
+                    /*border: 1px solid #f3bd8c;*/
+                    /*background-color: #ffffff;*/
+                /*}*/
+                /*.domePC2-content-1>div>div:nth-child(2)>img{*/
+                    /*margin-left: 25px;*/
+                    /*margin-top: 10px;*/
+                    /*width: 550px;*/
+                    /*height: 380px;*/
+                /*}*/
+
+                /*.domePC2-content-2{*/
+                    /*width: 100%;*/
+                    /*margin: auto;*/
+                    /*margin-top: 20px;*/
+                    /*!*margin-left: 10px;*!*/
+                    /*!*display: flex;*!*/
+                    /*!*align-items: center;*!*/
+                    /*!*height: 190px;*!*/
+                    /*!*width:1324px ;*!*/
+                    /*!*margin: auto;*!*/
+                /*}*/
+
+                /*.domePC2-content-2>div{*/
+                    /*width: 1200px;*/
+                    /*margin: auto;*/
+                /*}*/
+                /*.domePC2-swiper-container{*/
+                    /*width: 1120px;*/
+                    /*!*margin: auto;*!*/
+                /*}*/
+                /*.domePC2-swiper-container .swiper-slide{*/
+                    /*width: 240px;*/
+                /*}*/
+                /*.domePC2-swiper-container>div>div>div{*/
+                    /*border: 1px solid #f3bd8c;*/
+                    /*!*background-image:url("img/品牌荣誉-配图.png") ;*!*/
+                    /*width: 260px;*/
+                    /*height: 180px;*/
+                    /*background-color: #ffffff;*/
+                    /*!*background-size: 282px 190px;*!*/
+                /*}*/
+                /*.domePC2-swiper-container>div>div>div>img{*/
+                    /*margin-left: 5px;*/
+                    /*display: inline-block;*/
+                    /*margin-top: 5px;*/
+                    /*width: 250px;*/
+                    /*height: 170px;*/
+                /*}*/
+
+                /*.domePC2-swiper-container>div:nth-child(2)>img{*/
+                    /*display: inline-block;*/
+                    /*width: 50px;*/
+                    /*height: 50px;*/
+                /*}*/
+
+                /*.domePC-title-2{*/
+                    /*margin: auto;*/
+                    /*width: 100%;*/
+                    /*display: flex;*/
+                    /*align-items: center;*/
+                    /*!*float: right;*!*/
+                    /*justify-content: center;*/
+                    /*height: 33px;*/
+                    /*!*margin-top: -18px;*!*/
+                    /*position: relative;*/
+                    /*top:-100px;*/
+                /*}*/
+                /*.domePC2-swiper-button-prev,.pc3_left,.banner_left{*/
+                    /*!*position: relative;*!*/
+                    /*!*top:-100px;*!*/
+                    /*!*left:40px ;*!*/
+                    /*background-image: url("img/品牌荣誉-icon-左.png");*/
+                    /*width: 20px;*/
+                    /*height: 50px;*/
+                    /*background-size: 20px 50px;*/
+                /*}*/
+                /*.domePC2-swiper-button-next,.pc3_right,.banner_right{*/
+                    /*!*position: relative;*!*/
+                    /*!*top:-100px;*!*/
+                    /*!*left: 1265px;*!*/
+                    /*background-image: url("img/品牌荣誉-icon-右.png");*/
+                    /*width: 20px;*/
+                    /*height: 50px;*/
+                    /*background-size: 20px 50px;*/
+                /*}*/
+
+            /*.domePC3-title-2,*/
+            /*.domePC3-content-1>div:first-child,*/
+            /*.domePC3-content-1>div:nth-child(2){*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC3 {*/
+                /*min-width: 1200px;!**!*/
+            /*}*/
+
+            /*.domePC3>div{*/
+                /*!*margin: auto;*!*/
+                /*width: 100%;*/
+                /*background-color: #fffcf6;*/
+                /*padding-bottom: 60px;*/
+            /*}*/
+            /*.domePC3>div>div:nth-child(4){*/
+                /*margin: auto;*/
+                /*width: 1200px;!**!*/
+            /*}*/
+            /*.domePC3-title{*/
+                /*margin: auto;*/
+                /*padding-top: 60px;!**!*/
+                /*width: 1200px;!**!*/
+                /*!*display: flex;*!*/
+                /*!*align-items: center;*!*/
+                /*!*justify-content: center;*!*/
+            /*}*/
+
+            /*.domePC3-title-1{*/
+                /*font-size: 42px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*margin-bottom: 16px;*/
+            /*}*/
+
+            /*.domePC3-title-2-2{*/
+                /*position: relative;*/
+                /*top:160px;*/
+                /*!*display: flex;*!*/
+                /*!*align-items: center;*!*/
+                /*!*justify-content: space-between;*!*/
+                /*!*!*height: 33px;*!*!*/
+                /*!*margin: auto;*!*/
+                /*!*width: 100px;*!*/
+                /*!*margin-top: 15px; ///////////!*/*/
+                /*!*position: relative;*!*/
+                /*!*bottom:-155px;*!*/
+                /*!*width: 1200px;///////////////////////////////////////!*/*/
+                /*!*!*margin-top: 150px;*!*!*/
+                /*!*position: relative;*!*/
+                /*!*left: -5px;*!*/
+            /*}*/
+
+            /*.domePC3-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC3-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC3-p{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC3-content{*/
+                /*width: 1200px;///////////////////////////////////////////////*/
+            /*margin-top: 40px;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*!*margin-bottom: 100px;*!*/
+                /*!*!*position:relative;*!*!*/
+                /*!*overflow: hidden;*!*/
+            /*}*/
+
+            /*.domePC3-content-2 {*/
+                /*width: 1100px; ///////////////////////////////*/
+            /*height: 400px;*/
+            /*}*/
+
+            /*!*设置图片样式*!*/
+            /*.domePC3-content-2 .swiper-wrapper>div{*/
+                /*width: 407px;*/
+                /*height: 260px;*/
+                /*background-size: 407px 260px;*/
+                /*border-radius: 2px;*/
+                /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+            /*.domePC3-content-2 .swiper-wrapper>div:nth-child(1){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC3-content-2 .swiper-wrapper>div:nth-child(2){*/
+                /*background-image: url("img/加盟风采-配图-2.png");*/
+            /*}*/
+            /*.domePC3-content-2 .swiper-wrapper>div:nth-child(3){*/
+                /*background-image: url("img/加盟风采-配图-3.png");*/
+            /*}*/
+            /*.domePC3-content-2 .swiper-wrapper>div:nth-child(4){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC3-content-2 .swiper-wrapper>div:nth-child(5){*/
+                /*background-image: url("img/加盟风采-配图-2.png");*/
+            /*}*/
+            /*.domePC3-content-2 .swiper-wrapper>div:nth-child(6){*/
+                /*background-image: url("img/加盟风采-配图-3.png");*/
+            /*}*/
+
+            /*.domePC4-title-2,*/
+            /*.domePC4-content-1>div:first-child,*/
+            /*.domePC4-content-1>div:nth-child(2)*/
+            /*{*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC4 {*/
+                /*min-width: 1200px;*/
+            /*}*/
+            /*.domePC4>div{*/
+                /*width: 100%;*/
+                /*background: #fffcf6 url("img/背景装饰-2.png") no-repeat right bottom;*/
+            /*}*/
+
+
+
+            /*.domePC4-title{*/
+                /*padding-top: 60px;*/
+                /*width: 100%;*/
+                /*text-align:center;*/
+            /*}*/
+
+            /*.domePC4-title-1{*/
+                /*font-size: 42px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*margin-bottom: 16px;*/
+            /*}*/
+
+            /*.domePC4-title-2-2{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: space-between;*/
+                /*margin: auto;*/
+                /*width: 100px;*/
+                /*margin-top: -15px;*/
+                /*position: relative;*/
+                /*bottom:-155px;*/
+                /*width: 1200px;*/
+                /*!*margin-top: 150px;*!*/
+                /*position: relative;*/
+            /*}*/
+
+            /*.domePC4-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC4-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC4-p{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC4-content{*/
+                /*width: 100%;*/
+                /*margin-top: 40px;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*!*margin-bottom: 100px;*!*/
+                /*!*!*position:relative;*!*!*/
+                /*!*overflow: hidden;*!*/
+            /*}*/
+            /*.domePC4-content-2 {*/
+                /*width: 1100px;*/
+                /*height: 400px;*/
+            /*}*/
+
+            /*!*设置图片样式*!*/
+            /*.domePC4-content-2 .swiper-wrapper>div{*/
+                /*width: 407px;*/
+                /*height: 260px;*/
+                /*background-size: 407px 260px;*/
+                /*border-radius: 2px;*/
+                /*box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+            /*.domePC4-content-2 .swiper-wrapper>div:nth-child(1){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC4-content-2 .swiper-wrapper>div:nth-child(2){*/
+                /*background-image: url("img/加盟风采-配图-2.png");*/
+            /*}*/
+            /*.domePC4-content-2 .swiper-wrapper>div:nth-child(3){*/
+                /*background-image: url("img/加盟风采-配图-3.png");*/
+            /*}*/
+            /*.domePC4-content-2 .swiper-wrapper>div:nth-child(4){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC4-content-2 .swiper-wrapper>div:nth-child(5){*/
+                /*background-image: url("img/加盟风采-配图-2.png");*/
+            /*}*/
+            /*.domePC4-content-2 .swiper-wrapper>div:nth-child(6){*/
+                /*background-image: url("img/加盟风采-配图-3.png");*/
+            /*}*/
+
+            /*.domePC4-guanggao{*/
+                /*background: url("img/广告条-2.png") no-repeat;*/
+                /*opacity:0.8;*/
+                /*width: 100%;*/
+                /*height: 200px;*/
+                /*background-size: 100% 200px;*/
+                /*margin-top: -60px;*/
+            /*}*/
+
+            /*.domePC5 {*/
+                /*min-width: 1200px;*/
+            /*}*/
+
+            /*.domePC5>div{*/
+                /*margin: auto;*/
+                /*width: 100%;*/
+                /*height: 750px;*/
+                /*background:#fffcf6 url("img/背景装饰-1.png") no-repeat left bottom ;*/
+            /*}*/
+
+            /*.domePC5-title{*/
+                /*padding-top: 60px;*/
+                /*width: 100%;*/
+                /*!*display: flex;*!*/
+                /*!*align-items: center;*!*/
+                /*!*justify-content: center;*!*/
+            /*}*/
+
+            /*.domePC5-title-1{*/
+                /*font-size: 42px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*margin-bottom: 16px;*/
+            /*}*/
+
+            /*.domePC5-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC5-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC5-p{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+                /*margin-bottom: 18px;*/
+            /*}*/
+
+            /*!*第二部分——第一块*!*/
+            /*.domePC5-content1{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+            /*.domePC5-content1>div{*/
+                /*cursor:pointer;*/
+                /*width: 140px;*/
+                /*height: 26px;*/
+                /*border-radius: 2px;*/
+                /*color: #e70012;*/
+                /*font-size: 14px;*/
+                /*border: 1px solid #e70012;*/
+                /*text-align: center;*/
+                /*margin-right: 16px;*/
+                /*padding-top: 10px;*/
+                /*margin-bottom: 20px;*/
+            /*}*/
+            /*.domePC5-content1>div:hover{*/
+                /*color: #f5f5f5;*/
+                /*background-color: #e70012;*/
+            /*}*/
+
+            /*!*第二部分——第二块*!*/
+            /*.domePC5-content2{*/
+                /*margin:auto;*/
+                /*width: 1200px;*/
+            /*}*/
+            /*.domePC5-content2>div>div{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*position: absolute;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div{*/
+                /*height: 368px;*/
+                /*width: 275px;*/
+                /*border:1px solid #f3bd8c ;*/
+                /*margin-right: 20px;*/
+                /*background-color: #ffffff;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div>div:nth-child(2){*/
+                /*!*width: 280px;*!*/
+                /*padding-left: 20px;*/
+                /*padding-right: 20px;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div>div:nth-child(2)>p:first-child{*/
+                /*font-size: 16px;*/
+                /*color: #333333;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div>div:nth-child(2)>p:nth-child(2){*/
+                /*font-size: 14px;*/
+                /*color: #777777;*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC5-content2>div:nth-child(2),.domePC5-content2>div:nth-child(3),.domePC5-content2>div:nth-child(4),.domePC5-content2>div:nth-child(5){*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC5-content3{*/
+                /*position: relative;*/
+                /*left: 50%;*/
+                /*top:400px;*/
+                /*margin-left: -80px;*/
+                /*width: 160px;*/
+                /*height: 32px;*/
+                /*border: 1px solid #e70012;*/
+                /*border-radius: 2px;*/
+                /*color: #e70012;*/
+                /*font-size: 16px;*/
+                /*text-align: center;*/
+                /*padding-top: 10px;*/
+            /*}*/
+            /*.domePC5-content3:hover{*/
+                /*background-color: #d0001d;*/
+                /*color: #ffffff;*/
+            /*}*/
+
+            /*.domePC6 {*/
+                /*min-width: 1200px;*/
+            /*}*/
+            /*.domePC6{*/
+                /*text-align: center;*/
+                /*width: 100%;*/
+                /*height: 590px;*/
+                /*background-color: #fffcf7;*/
+            /*}*/
+
+            /*.domePC6-title-1 {*/
+                /*padding-top: 60px;*/
+                /*width: 100%;*/
+                /*!*height: 100px;*!*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+
+            /*.domePC6-title-1>p{*/
+                /*color: #4d4646;*/
+                /*font-size: 42px;*/
+                /*!*margin-top: 80px;*!*/
+            /*}*/
+            /*.domePC6-br {*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC6-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC6-title-3 {*/
+                /*color: #666666;*/
+                /*font-size: 14px;*/
+                /*margin-top: 20px;*/
+            /*}*/
+
+            /*.domePC6-content {*/
+                /*width: 1200px;*/
+                /*margin: auto;*/
+                /*margin-top: 50px;*/
+                /*margin-bottom: 100px;*/
+                /*display: flex;*/
+                /*justify-content: center;*/
+                /*align-content: center;*/
+            /*}*/
+            /*.domePC6-content >div{*/
+                /*width: 168px;*/
+                /*height: 168px;*/
+                /*margin-right: 30px;*/
+                /*border-radius: 100px;*/
+            /*}*/
+            /*.domePC6-content >div>img{*/
+                /*width: 168px;*/
+                /*height: 168px;*/
+                /*margin-right: 40px;*/
+                /*border-radius: 100px;*/
+            /*}*/
+            /*.domePC6-content >div>div:nth-child(2){*/
+                /*font-size: 28px;*/
+                /*color: #e70012;*/
+                /*margin-top: 24px;*/
+                /*margin-bottom: 16px;*/
+            /*}*/
+            /*!*数字两边的横线*!*/
+            /*.domePC6-content >div>div:nth-child(2)>div{*/
+                /*top: -10px;*/
+                /*display: inline-block;*/
+                /*width: 30px;*/
+                /*height: 2px;*/
+                /*background-color:#e70012;*/
+                /*position: relative;*/
+            /*}*/
+            /*.domePC6-content >div>div:nth-child(2)>div:nth-child(2){*/
+                /*margin-left: 12px;*/
+            /*}*/
+
+
+            /*.domePC6-content >div>div:nth-child(3){*/
+                /*width: 100px;*/
+                /*font-size: 16px;*/
+                /*color: #e70012;*/
+                /*margin-bottom: 98px;*/
+                /*margin: auto;*/
+            /*}*/
+
+            /*.domePC7 {*/
+                /*min-width: 1200px;*/
+            /*}*/
+
+            /*.domePC7>div{*/
+                /*width: 100%;*/
+                /*min-height: 870px;*/
+                /*background: #fffcf7 url(img/背景装饰-2.png) no-repeat right bottom;*/
+            /*}*/
+
+            /*.domePC7-title-1 {*/
+                /*padding-top: 60px;*/
+                /*width: 100%;*/
+                /*!*height: 100px;*!*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+
+            /*.domePC7-title-1>p{*/
+                /*color: #4d4646;*/
+                /*font-size: 42px;*/
+                /*margin-bottom: 10px;*/
+            /*}*/
+            /*.domePC7-br {*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC7-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC7-title-3 {*/
+                /*color: #666666;*/
+                /*font-size: 14px;*/
+                /*margin-top: 20px;*/
+                /*text-align: center;*/
+            /*}*/
+
+            /*.domePC7-content {*/
+                /*width: 1200px;*/
+                /*margin: auto;*/
+                /*margin-top: 50px;*/
+                /*margin-bottom: 100px;*/
+                /*display: flex;*/
+                /*justify-content: center;*/
+                /*align-content: center;*/
+            /*}*/
+            /*.domePC7-content-1{*/
+                /*width:600px ;*/
+                /*margin-right: 30px;*/
+            /*}*/
+            /*.domePC7-content-1>div:first-child{*/
+                /*text-align: center;*/
+                /*font-size: 42px;*/
+                /*color: #333333;*/
+            /*}*/
+            /*.domePC7-content-1>div:nth-child(2){*/
+                /*margin-top: 24px;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+            /*}*/
+            /*.domePC7-content-1>div:nth-child(3){*/
+                /*margin-top: 40px;*/
+                /*width: 160px;*/
+                /*height: 32px;*/
+                /*background-color: #e70012;*/
+                /*color: #ffffff;*/
+                /*text-align: center;*/
+                /*padding-top: 10px;*/
+            /*}*/
+
+            /*.domePC7-content-2>div:first-child{*/
+                /*width: 500px;*/
+                /*height:308px ;*/
+                /*background-color: #e70012;*/
+                /*transform:rotate(7deg);*/
+                /*-ms-transform:rotate(7deg); 	!* IE 9 *!*/
+                /*-moz-transform:rotate(7deg); 	!* Firefox *!*/
+                /*-webkit-transform:rotate(7deg); !* Safari 和 Chrome *!*/
+                /*-o-transform:rotate(7deg);*/
+            /*}*/
+            /*.domePC7-content-2>div>img{*/
+                /*width: 500px;*/
+                /*display: block;*/
+                /*transform:rotate(-7deg);*/
+                /*-ms-transform:rotate(-7deg); 	!* IE 9 *!*/
+                /*-moz-transform:rotate(-7deg); 	!* Firefox *!*/
+                /*-webkit-transform:rotate(-7deg); !* Safari 和 Chrome *!*/
+                /*-o-transform:rotate(-7deg);*/
+            /*}*/
+
+            /*.domePC8 {*/
+                /*min-width: 1200px;*/
+                /*margin-top: -250px;*/
+
+            /*}*/
+
+            /*.domePC8>div{*/
+                /*width: 100%;*/
+                /*height: 750px;*/
+                /*background-image: url("img/加盟支持-北京.png");*/
+            /*}*/
+            /*.domePC8-title-1 {*/
+                /*padding-top: 60px;*/
+                /*width: 100%;*/
+                /*!*height: 100px;*!*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+
+            /*.domePC8-title-1>p{*/
+                /*color: #4d4646;*/
+                /*font-size: 42px;*/
+                /*!*margin-top: 80px;*!*/
+            /*}*/
+            /*.domePC8-br {*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC8-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC8-title-3 {*/
+                /*color: #666666;*/
+                /*font-size: 14px;*/
+                /*margin-top: 20px;*/
+                /*text-align: center;*/
+            /*}*/
+
+            /*.domePC8-content{*/
+                /*width: 1200px;*/
+                /*display: flex;*/
+                /*margin: auto;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+            /*.domePC8-content1>div{*/
+                /*margin-top: 20px;*/
+                /*padding-left: 10px;*/
+                /*width:450px ;*/
+                /*height: 130px;*/
+                /*background-color: #ffffff;*/
+                /*border-radius:0 70px 70px 0 ;*/
+                /*display: flex;*/
+                /*!*align-items: center;*!*/
+            /*}*/
+
+            /*.domePC8-content1>div>div:first-child{*/
+                /*margin-top: 20px;*/
+                /*width: 340px;*/
+                /*margin-right: 20px;*/
+            /*}*/
+            /*.domePC8-content1>div>div:first-child>p:first-child{*/
+                /*font-size:24px ;*/
+                /*color: #e70012;*/
+            /*}*/
+            /*.domePC8-content1>div>div:first-child>p:nth-child(2){*/
+                /*margin-top:12px ;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+            /*}*/
+            /*.domePC8-content1>div>div:nth-child(2){*/
+                /*position: relative;*/
+                /*right: 10px;*/
+                /*width: 110px;*/
+                /*height: 110px;*/
+                /*background-image: url("img/加盟支持-北京.png");*/
+                /*!*background-size: 120px 120px;*!*/
+                /*border-radius:55px;*/
+                /*margin: auto;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+            /*}*/
+
+            /*.domePC8-content2{*/
+                /*width: 282px;*/
+                /*height: 282px;*/
+                /*border-radius:146px;*/
+                /*background-image: url("img/加盟支持-配图-1.png");*/
+                /*background-size: 292px 292px;*/
+                /*!*margin: auto;*!*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+
+            /*.domePC8-content3>div{*/
+                /*margin-top: 20px;*/
+                /*padding-left: 10px;*/
+                /*width:450px ;*/
+                /*height: 130px;*/
+                /*background-color: #ffffff;*/
+                /*border-radius: 70px 0 0 70px;*/
+                /*display: flex;*/
+                /*!*align-items: center;*!*/
+            /*}*/
+            /*.domePC8-content3>div>div:nth-child(2){*/
+                /*margin-top: 20px;*/
+                /*width: 340px;*/
+                /*margin-left: 20px;*/
+            /*}*/
+            /*.domePC8-content3>div>div:nth-child(2)>p:first-child{*/
+                /*font-size:24px ;*/
+                /*color: #e70012;*/
+            /*}*/
+            /*.domePC8-content3>div>div:nth-child(2)>p:nth-child(2){*/
+                /*margin-top:12px ;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+            /*}*/
+            /*.domePC8-content3>div>div:first-child{*/
+                /*position: relative;*/
+                /*!*right: 10px;*!*/
+                /*width: 110px;*/
+                /*height: 110px;*/
+                /*background-image: url("img/加盟支持-北京.png");*/
+                /*!*background-size: 120px 120px;*!*/
+                /*border-radius:55px;*/
+                /*margin: auto;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+
+            /*.domePC8-content3>div:nth-child(2),.domePC8-content1>div:nth-child(2){*/
+                /*width: 420px;*/
+            /*}*/
+
+            /*.domePC8-content1>div:nth-child(2)>div:nth-child(2){*/
+                /*width: 110px;*/
+                /*height: 100px;*/
+            /*}*/
+
+            /*.domePC8-content3>div:nth-child(2)>div:first-child{*/
+                /*width: 110px;*/
+                /*height: 100px;*/
+            /*}*/
+            /*.domePC8-content3>div:nth-child(2){*/
+                /*margin-left: 30px;*/
+            /*}*/
+
+            /*.domePC9 {*/
+                /*min-width: 1200px;*/
+            /*}*/
+
+            /*.domePC9>div{*/
+                /*text-align: center;*/
+                /*width: 100%;*/
+                /*height: 1000px;*/
+                /*background:#fffcf6 url("img/背景装饰-1.png") no-repeat left bottom;*/
+            /*}*/
+
+            /*.domePC9-title-1 {*/
+                /*padding-top: 60px;*/
+                /*width: 100%;*/
+                /*!*height: 100px;*!*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*margin-bottom: 10px;*/
+            /*}*/
+            /*.domePC9-title-1 img{*/
+                /*display: block;*/
+                /*height: 50px;*/
+                /*!*margin-right: 5px;*!*/
+                /*margin-left: 30px;*/
+            /*}*/
+            /*.domePC9-title-1>p:nth-child(2){*/
+                /*color: #4d4646;*/
+                /*font-size: 42px;*/
+                /*!*margin-top: 80px;*!*/
+                /*margin-left: 15px;*/
+            /*}*/
+            /*.domePC9-br {*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC9-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC9-title-3 {*/
+                /*color: #666666;*/
+                /*font-size: 14px;*/
+                /*margin-top: 20px;*/
+            /*}*/
+
+            /*.domePC9-content {*/
+                /*width: 1200px;*/
+                /*margin: auto;*/
+                /*margin-top: 50px;*/
+                /*margin-bottom: 100px;*/
+                /*display: flex;*/
+                /*justify-content: center;*/
+                /*align-content: center;*/
+
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+            /*.domePC9-content >div>img{*/
+                /*border: 1px solid #f8e8d8;*/
+                /*padding: 10px;*/
+                /*height: 280px;*/
+                /*width: 350px;*/
+                /*margin-left: 20px;*/
+            /*}*/
+            /*.domePC9-content >div>div:nth-child(2){*/
+                /*width:40px;*/
+                /*height:40px;*/
+                /*line-height:40px;*/
+                /*margin: auto;*/
+                /*border-radius:50px;*/
+                /*font-size:20px;*/
+                /*background-color:#f8e8d8;*/
+                /*color:#333333;*/
+                /*position:relative;*/
+                /*top:-35px;*/
+            /*}*/
+            /*.domePC9-content >div>div:nth-child(3){*/
+                /*font-size: 20px;*/
+                /*color: #333333;*/
+                /*margin-bottom: 32px;*/
+            /*}*/
+
+            /*.domePC10 {*/
+                /*min-width: 1200px;*/
+            /*}*/
+            /*.domePC10>div{*/
+                /*width: 100%;*/
+                /*!*height: 1000px;*!*/
+                /*background: url("img/背景装饰-2.png") no-repeat right bottom;*/
+            /*}*/
+
+            /*.domePC10-first{*/
+                /*background-color:#f5ede5 ;*/
+                /*opacity:0.9;*/
+            /*}*/
+            /*.domePC10-title-1 {*/
+                /*padding-top: 60px;*/
+                /*width: 100%;*/
+                /*!*height: 100px;*!*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+
+            /*.domePC10-title-1>p{*/
+                /*color: #4d4646;*/
+                /*font-size: 42px;*/
+                /*margin-bottom: 10px;*/
+            /*}*/
+            /*.domePC10-br {*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-title-3 {*/
+                /*color: #666666;*/
+                /*font-size: 14px;*/
+                /*margin-top: 20px;*/
+                /*text-align: center;*/
+            /*}*/
+
+            /*.domePC10-content {*/
+                /*width: 1200px;*/
+                /*margin: auto;*/
+                /*margin-top: 50px;*/
+                /*!*margin-bottom: 100px;*!*/
+                /*display: flex;*/
+                /*justify-content: center;*/
+                /*align-content: center;*/
+            /*}*/
+            /*.domePC10-content-2{*/
+                /*width:600px ;*/
+                /*margin-left: 50px;*/
+            /*}*/
+            /*.domePC10-content-2>div:first-child{*/
+                /*font-size: 42px;*/
+                /*color: #333333;*/
+            /*}*/
+            /*!*横线部分*!*/
+            /*.domePC10-content-2-br{*/
+                /*margin-top: 18px;*/
+                /*width: 120px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*!*margin: auto;*!*/
+            /*}*/
+            /*.domePC10-content-2-br>div{*/
+                /*width: 60px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*!*margin: auto;*!*/
+            /*}*/
+
+            /*.domePC10-content-2>div:nth-child(3){*/
+                /*margin-top: 36px;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+            /*}*/
+            /*.domePC10-content-2>div:nth-child(4){*/
+                /*margin-top: 40px;*/
+                /*width: 160px;*/
+                /*height: 32px;*/
+                /*background-color: #e70012;*/
+                /*color: #ffffff;*/
+                /*text-align: center;*/
+                /*padding-top: 10px;*/
+            /*}*/
+
+            /*.domePC10-content-1>div>img{*/
+                /*display: block;*/
+                /*width: 564px;*/
+                /*height: 424px;*/
+            /*}*/
+
+
+            /*!*第二部分*!*/
+            /*.domePC10-second{*/
+                /*background-color:#f5ede5 ;*/
+                /*opacity:0.8;*/
+            /*}*/
+            /*.domePC10-second-title-1 {*/
+                /*width: 100%;*/
+                /*!*height: 100px;*!*/
+                /*padding-top:60px;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*margin-bottom: 10px;*/
+            /*}*/
+            /*.domePC10-second-title-1 img{*/
+                /*display: block;*/
+                /*height: 50px;*/
+                /*!*margin-right: 5px;*!*/
+                /*margin-left: 30px;*/
+            /*}*/
+            /*.domePC10-second-title-1>p:nth-child(2){*/
+                /*color: #4d4646;*/
+                /*font-size: 42px;*/
+                /*!*margin-top: 80px;*!*/
+                /*margin-left: 15px;*/
+            /*}*/
+            /*.domePC10-second-br {*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-second-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-second-title-3 {*/
+                /*color: #666666;*/
+                /*font-size: 14px;*/
+                /*margin-top: 20px;*/
+                /*text-align: center;*/
+            /*}*/
+
+            /*.domePC10-second-content {*/
+                /*width: 1200px;*/
+                /*margin: auto;*/
+                /*margin-top: 50px;*/
+                /*margin-bottom: 100px;*/
+                /*!*display: flex;*!*/
+                /*!*justify-content: center;*!*/
+                /*!*align-content: center;*!*/
+
+                /*!*-webkit-flex-flow:row wrap;*!*/
+                /*!*-webkit-box-orient:horizontal;*!*/
+                /*!*-webkit-box-lines:multiple;*!*/
+                /*!*-moz-flex-flow:row wrap;*!*/
+                /*!*box-orient:horizontal;*!*/
+                /*!*box-lines:multiple;*!*/
+                /*!*flex-flow:row wrap;*!*/
+            /*}*/
+
+            /*.domePC10-second-content-1,.domePC10-second-content-2{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+            /*.domePC10-second-content-1 >div,.domePC10-second-content-2 >div{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*width: 400px;*/
+                /*margin-bottom: 20px;*/
+            /*}*/
+            /*.domePC10-second-content-1 >div>div:first-child{*/
+                /*background-image: url("img/常见问题-装饰-1.png");*/
+                /*width:55px ;*/
+                /*height: 60px;*/
+                /*background-size: 50px 50px;*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+            /*.domePC10-second-content-1 >div>div:nth-child(2){*/
+                /*margin-left: 20px;*/
+                /*font-size: 24px;*/
+                /*color: #a16d50;*/
+            /*}*/
+            /*.domePC10-second-content-2 >div>div:first-child{*/
+                /*background: url("img/常见问题-装饰-2.png") no-repeat;*/
+                /*width:80px ;*/
+                /*height:80px;*/
+                /*background-size: 55px 55px;*/
+                /*background-position: center 0;*/
+            /*}*/
+            /*.domePC10-second-content-2 >div>div:nth-child(2){*/
+                /*margin-left: 20px;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+                /*margin-right: 20px;*/
+            /*}*/
+
+            /*.domePC11 {*/
+                /*min-width: 1200px;*/
+                /*margin-top: -110px;*/
+            /*}*/
+
+            /*.domePC11>div{*/
+                /*margin: auto;*/
+                /*width: 100%;*/
+                /*!*height: 734px;*!*/
+                /*background: url("img/新闻中心-北京.png") no-repeat left bottom ;*/
+            /*}*/
+            /*.domePC11-title{*/
+                /*width: 100%;*/
+            /*}*/
+
+            /*.domePC11-title-1{*/
+                /*font-size: 42px;*/
+                /*color: #ffffff;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*margin-bottom: 16px;*/
+                /*padding-top: 60px;*/
+            /*}*/
+
+            /*.domePC11-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 441px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC11-br div{*/
+                /*width: 40px;*/
+                /*background-color: #ffffff;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC11-p{*/
+                /*text-align: center;*/
+                /*color: #ffffff;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+                /*margin-bottom: 40px;*/
+            /*}*/
+
+            /*!*第二部分——第一块*!*/
+            /*.domePC11-content1{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*margin-bottom: 66px;*/
+            /*}*/
+            /*.domePC11-content1>div{*/
+                /*cursor:pointer;*/
+                /*width: 140px;*/
+                /*height: 26px;*/
+                /*border-radius: 2px;*/
+                /*color: #ffffff;*/
+                /*font-size: 14px;*/
+                /*border: 1px solid #ffffff;*/
+                /*text-align: center;*/
+                /*margin-right: 16px;*/
+                /*padding-top: 10px;*/
+                /*margin-bottom: 20px;*/
+            /*}*/
+            /*.domePC11-content1>div:hover{*/
+                /*color: #a16d50;*/
+                /*background-color: #ffffff;*/
+            /*}*/
+
+            /*!*第二部分——第二块*!*/
+            /*.domePC11-content2{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*padding-bottom: 50px;*/
+            /*}*/
+            /*!*左边*!*/
+            /*.domePC11-content2>div:first-child{*/
+                /*width: 580px;*/
+                /*height: 362px;*/
+                /*margin-right: 20px;*/
+                /*background-image: url("img/新闻中心-配图-1.png");*/
+                /*background-size: 580px 362px;*/
+            /*}*/
+            /*.domePC11-content2>div:first-child>p{*/
+                /*width: 556px;*/
+                /*height: 49px;*/
+                /*background-color: #a16d50;*/
+                /*font-size: 24px;*/
+                /*color: #ffffff;*/
+                /*padding-left: 24px;*/
+                /*margin-top: 298px;*/
+                /*padding-top: 15px;*/
+            /*}*/
+
+            /*!*右边*!*/
+            /*.domePC11-content2>div:nth-child(2){*/
+                /*width: 600px;*/
+                /*height: 362px;*/
+                /*background-color: rgba(161,109,80,0.9);*/
+            /*}*/
+            /*.domePC11-content2-2>div{*/
+                /*height: 112px;*/
+                /*display:flex;*/
+                /*align-items: center;*/
+            /*}*/
+            /*.domePC11-content2-2>div>div{*/
+                /*!*height: 112px;*!*/
+                /*margin-left: 5px;*/
+            /*}*/
+            /*!*数字*!*/
+            /*.domePC11-content2-2>div>div:first-child{*/
+                /*margin-left: 20px;*/
+                /*!*margin-right: 16px;*!*/
+                /*width: 150px;*/
+            /*}*/
+            /*!*03*!*/
+            /*.domePC11-content2-2>div>div:first-child>p:first-child{*/
+                /*!*margin: 30px 16px 12px 20px;*!*/
+                /*font-size: 64px;*/
+                /*color: #ffffff;*/
+                /*padding: 0px;*/
+            /*}*/
+            /*.domePC11-content2-2>div>div:first-child>p:nth-child(2){*/
+                /*!*margin-top: 12px;*!*/
+                /*font-size: 20px;*/
+                /*!*margin-right: 50px;*!*/
+                /*color: #ffffff;*/
+            /*}*/
+
+            /*.domePC11-content2-2>div>div:nth-child(2)>p:first-child{*/
+                /*font-size: 24px;*/
+                /*color: #ffffff;*/
+            /*}*/
+            /*.domePC11-content2-2>div>div:nth-child(2)>p:nth-child(2){*/
+                /*font-size: 14px;*/
+                /*color: #ffffff;*/
+                /*margin-right: 20px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+
+            /*.domePC12{*/
+                /*min-width: 1200px;*/
+            /*}*/
+            /*.domePC12>div{*/
+                /*width: 100%;*/
+                /*height: 326px;*/
+                /*background-color: #a06d50;*/
+            /*}*/
+            /*.domePC12-content {*/
+                /*width: 100%;*/
+                /*height: 290px;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*!*justify-content: center;*!*/
+            /*}*/
+
+            /*.domePC12-left {*/
+                /*!*margin-right: 100px;*!*/
+                /*margin-left: 20px;*/
+            /*}*/
+
+            /*.domePC12-left > img {*/
+                /*margin-bottom: 34px;*/
+            /*}*/
+
+            /*.domePC12-left > div {*/
+                /*display: flex;*/
+                /*align-items: center;*/
+            /*}*/
+
+            /*.domePC12-left > div > div {*/
+                /*margin-left: 5px;*/
+            /*}*/
+
+            /*.domePC12-left > div > div > p:first-child {*/
+                /*font-size: 16px;*/
+                /*color: #ffffff;*/
+            /*}*/
+
+            /*.domePC12-left > div > div > p:nth-child(2) {*/
+                /*font-size: 32px;*/
+                /*color: #ffffff;*/
+            /*}*/
+
+            /*.domePC12-right {*/
+                /*display: flex;*/
+                /*align-items: flex-start;*/
+                /*margin-left: 80px;*/
+            /*}*/
+
+            /*.domePC12-right > div {*/
+                /*margin-right: 35px;*/
+                /*width: 80px;*/
+            /*}*/
+
+            /*.domePC12-right > div > p:first-child {*/
+                /*margin-top: 32px;*/
+                /*font-size: 16px;*/
+                /*color: #ffffff;*/
+                /*!*border-bottom: 2px solid #ffdc1d;*!*/
+                /*padding-bottom: 5px;*/
+                /*border-bottom: 2px solid #ffdc1d;*/
+
+            /*}*/
+
+            /*.domePC12-right > div > p {*/
+                /*text-align: center;*/
+                /*font-size: 14px;*/
+                /*color: #ffffff;*/
+                /*margin-top: 8px;*/
+            /*}*/
+            /*.domePC12-content2{*/
+                /*text-align: center;*/
+                /*color: #ffffff;*/
+                /*font-size: 10px;*/
+                /*padding-top: 10px;*/
+            /*}*/
+
+
+
+            /*.home_page{*/
+                /*min-width: 1200px;*/
+            /*}*/
+            /*.home_page>div{*/
+                /*width: 100%;*/
+            /*}*/
+
+            /*.img1,.img2,.img3{*/
+                /*width: 100%;*/
+            /*}*/
+            /*.img1>img,.img2>img,.img3>img{*/
+                /*width: 100%;*/
+            /*}*/
+
+            /*.img1{*/
+                /*!*margin-top: 60px;*!*/
+            /*}*/
+
+        /*}*/
+        /*@media screen and (max-width: 479px) {*/
+            /*.domePC1 {*/
+                /*width: 100%;*/
+            /*}*/
+
+            /*.domePC1-title {*/
+                /*width: 100%;*/
+                /*height: 90px;*/
+                /*margin: auto;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: space-between;*/
+            /*}*/
+
+            /*.domePC1-title > div:nth-child(2),.domePC1-title > div:nth-child(3),.domePC1-nav> div> span:nth-child(2),.domePC1-nav>div> span:nth-child(4){*/
+                /*margin-right: 20px;*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC1-title > div:nth-child(4) {*/
+                /*margin-right: 10px;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+            /*}*/
+            /*.domePC1-title > div:nth-child(4) > div:nth-child(2) {*/
+                /*margin-left: 4px;*/
+            /*}*/
+            /*.domePC1-title > div:nth-child(4) > div:nth-child(2) > p:first-child {*/
+                /*font-size: 10px;*/
+                /*color: #333333;*/
+            /*}*/
+            /*.domePC1-title > div:nth-child(4) > div:nth-child(2) > p:nth-child(2) {*/
+                /*font-size: 18px;*/
+                /*color: #e70012;*/
+            /*}*/
+
+            /*.domePC1-nav {*/
+                /*height: 30px;*/
+                /*background-color: #d00010;*/
+                /*width: 100%;*/
+            /*}*/
+            /*.domePC1-nav > div {*/
+                /*width: 100%;*/
+                /*!*height: 48px;*!*/
+                /*margin: auto;*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*!*text-align: center;*!*/
+            /*}*/
+            /*.domePC1-nav > div>div:nth-child(3),.domePC1-nav > div>div:nth-child(4),.domePC1-nav > div>div:nth-child(5){*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC1-nav > div > div {*/
+                /*height: 26px;*/
+                /*padding-top: 6px;*/
+                /*color: #f5f5f5;*/
+                /*font-size: 10px;*/
+                /*width: 65px;*/
+                /*text-align: center;*/
+            /*}*/
+            /*.domePC1-nav > div > div:hover {*/
+                /*color: #d00010;*/
+                /*!*font-size: 16px;*!*/
+                /*background-color: #f3bd8c;*/
+            /*}*/
+            /*.domePC1-nav > div > span {*/
+                /*width: 1px;*/
+                /*height: 16px;*/
+                /*background-color: #ffffff;*/
+            /*}*/
+            /*.content {*/
+                /*width: 100%;*/
+                /*height: 500px;*/
+            /*}*/
+
+            /*.domePC1-content > div > div:first-child > div > div {*/
+                /*background-image: url("img/首页-banner.png");*/
+                /*width: 100%;*/
+                /*height: 500px;*/
+                /*background-size: 100% 500px;*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+
+            /*.domePC1-content img {*/
+                /*width: 100%;*/
+                /*height: 500px;*/
+            /*}*/
+
+            /*.domePC2-content-2,.domePC-title-2,.domePC2-content-1>div:nth-child(5),.domePC2-content-1>div:nth-child(6),*/
+            /*.domePC2-content-1>div:nth-child(7),.domePC2-content-1>div:nth-child(8){*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC2-title-1{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*margin-bottom: 16px;*/
+            /*}*/
+            /*.domePC2-title-3{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC2-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC2-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+
+            /*.domePC2-content-1{*/
+                /*width: 100%;*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC2-content-1>div{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*width: 100%;*/
+                /*!*padding: 5px;*!*/
+            /*}*/
+            /*.domePC2-content-1>div>div:first-child{*/
+                /*width: 50%;*/
+                /*padding: 4px;*/
+            /*}*/
+            /*.domePC2-content-1>div>div:first-child>p{*/
+                /*font-size:14px;*/
+                /*color:#333333;*/
+            /*}*/
+            /*.domePC2-content-1>div>div:first-child>p:nth-child(2){*/
+                /*font-size:10px;*/
+                /*color: #999999;*/
+            /*}*/
+            /*.domePC2-content-1>div>div:first-child>p:nth-child(3){*/
+                /*font-size:12px;*/
+                /*color:#666666;*/
+            /*}*/
+            /*.domePC2-content-1>div>div:first-child>div{*/
+                /*color: #ffffff;*/
+                /*font-size: 14px;*/
+                /*width: 90px;*/
+                /*height: 25px;*/
+                /*background-color: #e70012;*/
+                /*text-align: center;*/
+                /*padding-top: 5px;*/
+                /*border-radius: 2px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC2-content-1>div>div:nth-child(2){*/
+                /*!*width: 50%;*!*/
+            /*}*/
+            /*.domePC2-content-1>div>div:nth-child(2)>img{*/
+                /*width: 175px;*/
+                /*height:120px;*/
+            /*}*/
+
+            /*!*消去轮播*!*/
+            /*.domePC3-title-2,.domePC3-title-2-2,.domePC3>div:nth-child(3) .swiper-container{*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC3{*/
+                /*width: 100%;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC3-title-1{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*margin-top: 20px;*/
+            /*}*/
+            /*.domePC3-p{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC3-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC3-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+
+
+            /*.domePC3-mobile{*/
+                /*padding-right: 5px;*/
+                /*padding-left: 5px;*/
+            /*}*/
+
+            /*.domePC3-mobile>div:first-child, .domePC3-mobile>div:nth-child(2),.domePC3-mobile>div:nth-child(3){*/
+                /*!*padding: 10px;*!*/
+                /*margin: auto;*/
+                /*width: 100%;*/
+                /*height: 200px;*/
+                /*background-size: 300px 200px;*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC3-mobile>div:first-child{*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC3-mobile>div:nth-child(2){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC3-mobile>div:nth-child(3){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+
+            /*!*消去轮播*!*/
+            /*.domePC4-title-2,.domePC4-title-2-2,.domePC4>div:nth-child(3) .swiper-container{*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC4{*/
+                /*width: 100%;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC4-title-1{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*padding-top: 20px;*/
+            /*}*/
+            /*.domePC4-p{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC4-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC4-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+
+            /*.domePC4-mobile{*/
+                /*padding-left: 5px;*/
+                /*padding-right: 5px;*/
+            /*}*/
+            /*.domePC4-mobile>div:first-child, .domePC4-mobile>div:nth-child(2),.domePC4-mobile>div:nth-child(3){*/
+                /*margin: auto;*/
+                /*width: 100%;*/
+                /*height: 200px;*/
+                /*background-size: 300px 200px;*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC4-mobile>div:first-child{*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC4-mobile>div:nth-child(2){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+            /*.domePC4-mobile>div:nth-child(3){*/
+                /*background-image: url("img/加盟风采-配图-1.png");*/
+            /*}*/
+
+            /*.domePC5{*/
+                /*width: 100%;*/
+                /*margin: auto;*/
+                /*min-height: 900px;*/
+            /*}*/
+            /*.domePC5-title-1{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*padding-top: 20px;*/
+            /*}*/
+            /*.domePC5-p{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC5-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC5-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC5-content1{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*margin-left: 16px;*/
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+            /*.domePC5-content1>div{*/
+                /*cursor:pointer;*/
+                /*width: 85px;*/
+                /*height: 18px;*/
+                /*border-radius: 2px;*/
+                /*color: #e70012;*/
+                /*font-size: 10px;*/
+                /*border: 1px solid #e70012;*/
+                /*text-align: center;*/
+                /*margin-right: 16px;*/
+                /*padding-top: 5px;*/
+                /*margin-top: 15px;*/
+            /*}*/
+            /*.domePC5-content1>div:hover{*/
+                /*color: #f5f5f5;*/
+                /*background-color: #e70012;*/
+            /*}*/
+
+            /*!*第二部分——第二块*!*/
+            /*.domePC5-content2{*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC5-content2>div>div{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*position: absolute;*/
+                /*!*margin-left: 10px;*!*/
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div{*/
+                /*height: 320px;*/
+                /*width: 160px;*/
+                /*border:1px solid #f3bd8c ;*/
+                /*margin-right: 10px;*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div>div:first-child>img{*/
+                /*width: 160px;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div>div:nth-child(2){*/
+                /*!*width: 280px;*!*/
+                /*padding-left: 20px;*/
+                /*padding-right: 20px;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div>div:nth-child(2)>p:first-child{*/
+                /*font-size: 16px;*/
+                /*color: #333333;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC5-content2>div>div>div>div:nth-child(2)>p:nth-child(2){*/
+                /*font-size: 14px;*/
+                /*color: #777777;*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC5-content2>div:nth-child(2),.domePC5-content2>div:nth-child(3),.domePC5-content2>div:nth-child(4),.domePC5-content2>div:nth-child(5){*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC5-content3{*/
+                /*position: relative;*/
+                /*left: 50%;*/
+                /*top:680px;*/
+                /*margin-left: -50px;*/
+                /*width: 100px;*/
+                /*height: 25px;*/
+                /*border: 1px solid #e70012;*/
+                /*border-radius: 2px;*/
+                /*color: #e70012;*/
+                /*font-size: 12px;*/
+                /*text-align: center;*/
+                /*padding-top: 10px;*/
+            /*}*/
+            /*.domePC5-content3:hover{*/
+                /*background-color: #d0001d;*/
+                /*color: #ffffff;*/
+            /*}*/
+
+            /*.domePC6{*/
+                /*width: 100%;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC6-title-1{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*padding-top: 20px;*/
+            /*}*/
+            /*.domePC6-title-3{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC6-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC6-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+
+            /*.domePC6-content {*/
+                /*width: 100%;*/
+                /*margin: auto;*/
+                /*margin-top: 10px;*/
+                /*!*margin-bottom: 100px;*!*/
+                /*display: flex;*/
+                /*justify-content: center;*/
+                /*align-content: center;*/
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+            /*.codomePC6-contentntent >div{*/
+                /*width: 130px;*/
+                /*!*height: 130px;*!*/
+                /*margin-right: 20px;*/
+                /*border-radius: 100px;*/
+            /*}*/
+            /*.domePC6-content >div>img{*/
+                /*width: 130px;*/
+                /*height: 130px;*/
+                /*margin-right: 10px;*/
+                /*border-radius: 65px;*/
+                /*margin-top: 10px;*/
+            /*}*/
+            /*.domePC6-content >div>div:nth-child(2){*/
+                /*font-size: 20px;*/
+                /*color: #e70012;*/
+                /*margin-top: 16px;*/
+                /*margin-bottom: 10px;*/
+                /*text-align: center;*/
+            /*}*/
+            /*!*数字两边的横线*!*/
+            /*.domePC6-content >div>div:nth-child(2)>div{*/
+                /*top: -5px;*/
+                /*display: inline-block;*/
+                /*width: 20px;*/
+                /*height: 2px;*/
+                /*background-color:#e70012;*/
+                /*position: relative;*/
+            /*}*/
+            /*.domePC6-content >div>div:nth-child(2)>div:nth-child(2){*/
+                /*margin-left: 12px;*/
+            /*}*/
+
+
+            /*.domePC6-content >div>div:nth-child(3){*/
+                /*width: 100px;*/
+                /*font-size: 14px;*/
+                /*text-align: center;*/
+                /*color: #e70012;*/
+                /*!*margin-bottom: 98px;*!*/
+                /*margin: auto;*/
+            /*}*/
+
+            /*.domePC7{*/
+                /*width: 100%;*/
+                /*min-height: 525px;*/
+            /*}*/
+            /*.domePC7-title-1>p{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*padding-top: 20px;*/
+            /*}*/
+            /*.domePC7-br{*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #666666;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC7-br>div{*/
+                /*width: 40px;*/
+                /*height: 3px;*/
+                /*background-color: #e70012;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC7-title-3{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+
+            /*.domePC7-content{*/
+                /*!*width: 100%;*!*/
+                /*!*margin-right: 5px;*!*/
+                /*!*margin-left: 5px;*!*/
+            /*}*/
+            /*.domePC7-content-1{*/
+                /*position: relative;*/
+                /*top:240px;*/
+            /*}*/
+            /*.domePC7-content-1>div:first-child{*/
+                /*text-align: center;*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*margin-bottom: 15px;*/
+            /*}*/
+            /*.domePC7-content-1>div:nth-child(2){*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+                /*margin-bottom: 20px;*/
+                /*margin-right: 5px;*/
+                /*margin-left: 5px;*/
+            /*}*/
+            /*.domePC7-content-1>div:nth-child(3){*/
+                /*width: 100px;*/
+                /*height: 25px;*/
+                /*background-color: #e70012;*/
+                /*color: #ffffff;*/
+                /*text-align: center;*/
+                /*padding-top: 5px;*/
+                /*margin: auto;*/
+            /*}*/
+
+
+            /*.domePC7-content-2>div{*/
+                /*width: 100%;*/
+                /*height: 200px;*/
+                /*!*left: 3px;*!*/
+                /*position:relative;*/
+                /*top: -190px;*/
+                /*!*right: 10px;*!*/
+            /*}*/
+            /*.domePC7-content-2>div>img{*/
+                /*width: 100%;*/
+                /*height: 200px;*/
+                /*!*margin-right: 10px;*!*/
+            /*}*/
+
+            /*.domePC8{*/
+                /*width: 100%;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC8-title-1{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*padding-top: 40px;*/
+            /*}*/
+            /*.domePC8-title-3{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC8-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC8-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC8-content1{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*!*margin-left: 16px;*!*/
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+            /*.domePC8-content1>div{*/
+                /*cursor:pointer;*/
+                /*width: 85px;*/
+                /*height: 18px;*/
+                /*border-radius: 2px;*/
+                /*color: #e70012;*/
+                /*font-size: 10px;*/
+                /*border: 1px solid #e70012;*/
+                /*text-align: center;*/
+                /*!*margin-right: 16px;*!*/
+                /*padding-top: 5px;*/
+                /*margin-top: 15px;*/
+            /*}*/
+            /*.domePC8-content1>div{*/
+                /*margin-top: 20px;*/
+                /*padding-left: 10px;*/
+                /*width:100%;*/
+                /*height: 90px;*/
+                /*background-color: #ffffff;*/
+                /*border-radius:0 70px 70px 0 ;*/
+                /*display: flex;*/
+                /*!*align-items: center;*!*/
+            /*}*/
+
+            /*.domePC8-content1>div>div:first-child{*/
+                /*!*margin-top: 20px;*!*/
+                /*width: 250px;*/
+                /*margin-right: 20px;*/
+            /*}*/
+            /*.domePC8-content1>div>div:first-child>p:first-child{*/
+                /*font-size:16px ;*/
+                /*color: #e70012;*/
+            /*}*/
+            /*.domePC8-content1>div>div:first-child>p:nth-child(2){*/
+                /*margin-top:10px ;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+            /*}*/
+            /*.domePC8-content1>div>div:nth-child(2){*/
+                /*position: relative;*/
+                /*right: 10px;*/
+                /*width: 80px;*/
+                /*height: 80px;*/
+                /*background-image: url("img/加盟支持-北京.png");*/
+                /*!*background-size: 120px 120px;*!*/
+                /*border-radius:40px;*/
+                /*margin: auto;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+            /*}*/
+
+            /*.domePC8-content2{*/
+                /*margin: auto;*/
+                /*width: 200px;*/
+                /*height: 200px;*/
+                /*border-radius:140px;*/
+                /*background-image: url("img/加盟支持-配图-1.png");*/
+                /*background-size: 292px 292px;*/
+                /*!*margin: auto;*!*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+
+            /*.domePC8-content3{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*!*margin-left: 16px;*!*/
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+            /*.domePC8-content3>div{*/
+                /*cursor:pointer;*/
+                /*width: 85px;*/
+                /*height: 18px;*/
+                /*border-radius: 2px;*/
+                /*color: #e70012;*/
+                /*font-size: 10px;*/
+                /*border: 1px solid #e70012;*/
+                /*text-align: center;*/
+                /*!*margin-right: 16px;*!*/
+                /*padding-top: 5px;*/
+                /*margin-top: 15px;*/
+            /*}*/
+            /*.domePC8-content3>div{*/
+                /*margin-top: 20px;*/
+                /*padding-left: 10px;*/
+                /*width:100%;*/
+                /*height: 90px;*/
+                /*background-color: #ffffff;*/
+                /*border-radius: 70px 0 0 70px;*/
+                /*display: flex;*/
+                /*!*align-items: center;*!*/
+            /*}*/
+
+            /*.domePC8-content3>div>div:nth-child(2){*/
+                /*width: 250px;*/
+                /*padding-right:10px;*/
+                /*padding-left: 10px;*/
+            /*}*/
+            /*.domePC8-content3>div>div:nth-child(2)>p:first-child{*/
+                /*font-size:16px ;*/
+                /*color: #e70012;*/
+            /*}*/
+            /*.domePC8-content3>div>div:nth-child(2)>p:nth-child(2){*/
+                /*margin-top:10px ;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+            /*}*/
+            /*.domePC8-content3>div>div:first-child{*/
+                /*position: relative;*/
+                /*!*right: 10px;*!*/
+                /*width: 80px;*/
+                /*height: 80px;*/
+                /*background-image: url("img/加盟支持-北京.png");*/
+                /*!*background-size: 120px 120px;*!*/
+                /*border-radius:40px;*/
+                /*margin: auto;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+
+            /*.domePC9{*/
+                /*!*width: 100%;*!*/
+            /*}*/
+
+            /*.domePC9-title-1>img{*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC9-title-1>p{*/
+                /*margin-top: 20px;*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*margin-bottom: 16px;*/
+            /*}*/
+            /*.domePC9-br{*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC9-br>div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC9-title-3{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+
+            /*.domePC9-content{*/
+                /*margin: auto;*/
+                /*display: flex;*/
+                /*justify-content: center;*/
+                /*align-content: center;*/
+                /*padding-top: 20px;*/
+
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+
+            /*.domePC9-content>div{*/
+                /*margin-right: 8px;*/
+            /*}*/
+            /*.domePC9-content>div>img{*/
+                /*display: block;*/
+                /*width: 165px;*/
+                /*height: 130px;*/
+                /*padding: 5px;*/
+                /*border: 1px solid #f8e8d8;*/
+            /*}*/
+            /*.domePC9-content>div>div:nth-child(2){*/
+                /*width:40px;*/
+                /*height:40px;*/
+                /*line-height:40px;*/
+                /*margin: auto;*/
+                /*border-radius:50px;*/
+                /*font-size:20px;*/
+                /*background-color:#f8e8d8;*/
+                /*color:#333333;*/
+                /*position:relative;*/
+                /*top:-35px;*/
+                /*text-align: center;*/
+            /*}*/
+            /*.domePC9-content>div>div:nth-child(3){*/
+                /*margin-bottom: 10px;*/
+                /*text-align: center;*/
+                /*margin-top: -20px;*/
+            /*}*/
+
+            /*.domePC10-title-1>p{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*padding-top: 20px;*/
+            /*}*/
+            /*.domePC10-br{*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #666666;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-br>div{*/
+                /*width: 40px;*/
+                /*height: 3px;*/
+                /*background-color: #e70012;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-title-3{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+
+            /*.domePC10-content{*/
+                /*min-height:490px;*/
+                /*!*width: 100%;*!*/
+                /*!*padding-right: 5px;*!*/
+                /*!*padding-left: 5px;*!*/
+            /*}*/
+            /*.domePC10-content-2{*/
+                /*position: relative;*/
+                /*top: 40px;*/
+                /*padding-left: 5px;*/
+                /*padding-right: 5px;*/
+            /*}*/
+            /*.domePC10-content-2>div:first-child{*/
+                /*text-align: center;*/
+                /*font-size: 18px;*/
+                /*color: #333333;*/
+                /*margin-bottom: 15px;*/
+            /*}*/
+            /*!*横线部分*!*/
+            /*.domePC10-content-2-br{*/
+                /*margin: auto;*/
+                /*width: 150px;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*!*margin: auto;*!*/
+            /*}*/
+            /*.domePC10-content-2-br>div{*/
+                /*width: 60px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+
+            /*.domePC10-content-2>div:nth-child(3){*/
+                /*margin-top: 20px;*/
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+                /*margin-right: 4px;*/
+                /*margin-bottom: 25px;*/
+            /*}*/
+            /*.domePC10-content-2>div:nth-child(4){*/
+                /*margin: auto;*/
+                /*width: 160px;*/
+                /*height: 32px;*/
+                /*background-color: #e70012;*/
+                /*color: #ffffff;*/
+                /*text-align: center;*/
+                /*padding-top: 10px;*/
+            /*}*/
+
+            /*.domePC10-content-1{*/
+                /*!*padding-right: 5px;*!*/
+                /*!*padding-left: 5px;*!*/
+            /*}*/
+            /*.domePC10-content-1>div{*/
+                /*position:relative;*/
+                /*top: 15px;*/
+                /*width: 100%;*/
+            /*}*/
+            /*.domePC10-content-1>div>img{*/
+                /*width: 100%;*/
+                /*height: 200px;*/
+                /*!*padding-right: 10px;*!*/
+            /*}*/
+
+            /*!*第二部分*!*/
+            /*.domePC10-second{*/
+                /*position: relative;*/
+                /*height: 765px;*/
+                /*!*margin-top:280px;*!*/
+            /*}*/
+            /*.domePC10-second-title-1 {*/
+                /*width: 100%;*/
+                /*!*height: 100px;*!*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*padding-top: 20px;*/
+                /*padding-bottom: 5px;*/
+            /*}*/
+            /*.domePC10-second-title-1 img{*/
+                /*display: block;*/
+                /*height: 50px;*/
+                /*!*margin-right: 5px;*!*/
+                /*!*margin-left: 30px;*!*/
+            /*}*/
+            /*.domePC10-second-title-1>p{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*!*margin-bottom: 16px;*!*/
+            /*}*/
+            /*.domePC10-second-br{*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-second-br>div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC10-second-title-3{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+
+            /*.domePC10-second-content-1{*/
+                /*margin-top: -100px;*/
+            /*}*/
+            /*.domePC10-second-content-1,domePC10-second-content-2{*/
+                /*width: 100%;*/
+            /*}*/
+            /*.domePC10-second-content-1 >div,.domePC10-second-content-2 >div{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*margin-top: 150px;*/
+                /*padding-left: 20px;*/
+            /*}*/
+            /*.domePC10-second-content-2{*/
+                /*position: relative;*/
+                /*top:-550px ;*/
+            /*}*/
+            /*.domePC10-second-content-1 >div>div:first-child{*/
+                /*background-image: url("img/常见问题-装饰-1.png");*/
+                /*width:55px ;*/
+                /*height: 60px;*/
+                /*background-size: 50px 50px;*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+            /*.domePC10-second-content-1 >div>div:nth-child(2){*/
+                /*margin-left: 20px;*/
+                /*font-size: 24px;*/
+                /*color: #a16d50;*/
+            /*}*/
+            /*.domePC10-second-content-2 >div>div:first-child{*/
+                /*background: url("img/常见问题-装饰-2.png") no-repeat;*/
+                /*width:80px ;*/
+                /*height:80px;*/
+                /*background-size: 55px 55px;*/
+                /*background-position: center 0;*/
+            /*}*/
+            /*.domePC10-second-content-2 >div>div:nth-child(2){*/
+
+                /*font-size: 14px;*/
+                /*color: #666666;*/
+                /*padding-left: 10px;*/
+            /*}*/
+
+            /*.domePC11{*/
+                /*width: 100%;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC11-title-1{*/
+                /*font-size: 22px;*/
+                /*color: #333333;*/
+                /*font-family: 宋体;*/
+                /*text-align: center;*/
+                /*padding-top: 20px;*/
+            /*}*/
+            /*.domePC11-p{*/
+                /*text-align: center;*/
+                /*color: #999999;*/
+                /*font-size: 16px;*/
+                /*margin-top: 16px;*/
+            /*}*/
+            /*.domePC11-br {*/
+                /*!*border: 1px solid black;*!*/
+                /*width: 60%;*/
+                /*height: 1px;*/
+                /*background-color: #cccccc;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC11-br div{*/
+                /*width: 40px;*/
+                /*background-color: #e70012;*/
+                /*height: 3px;*/
+                /*margin: auto;*/
+            /*}*/
+            /*.domePC11-content1{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+                /*margin-left: 16px;*/
+                /*-webkit-flex-flow:row wrap;*/
+                /*-webkit-box-orient:horizontal;*/
+                /*-webkit-box-lines:multiple;*/
+                /*-moz-flex-flow:row wrap;*/
+                /*box-orient:horizontal;*/
+                /*box-lines:multiple;*/
+                /*flex-flow:row wrap;*/
+            /*}*/
+            /*.domePC11-content1>div{*/
+                /*cursor:pointer;*/
+                /*width: 85px;*/
+                /*height: 18px;*/
+                /*border-radius: 2px;*/
+                /*color: #e70012;*/
+                /*font-size: 10px;*/
+                /*border: 1px solid #e70012;*/
+                /*text-align: center;*/
+                /*margin-right: 16px;*/
+                /*padding-top: 5px;*/
+                /*margin-top: 15px;*/
+            /*}*/
+            /*.domePC11-content1>div:hover{*/
+                /*color: #f5f5f5;*/
+                /*background-color: #e70012;*/
+            /*}*/
+
+            /*!*第二部分——第二块*!*/
+            /*.domePC11-content2{*/
+                /*margin-top: 15px;*/
+            /*}*/
+            /*.domePC11-content2>div:first-child{*/
+                /*background-image: url("img/新闻中心-配图-1.png");*/
+                /*width: 100%;*/
+                /*height: 262px;*/
+                /*background-size: 100% 262px;*/
+                /*background-repeat: no-repeat;*/
+                /*background-size: cover;*/
+                /*-webkit-background-size: cover;*/
+                /*-o-background-size: cover;*/
+                /*background-position: center 0;*/
+            /*}*/
+            /*.domePC11-content2>div:first-child>p{*/
+                /*font-size: 18px;*/
+                /*color: #ffffff;*/
+                /*width: 100%;*/
+                /*height: 30px;*/
+                /*background-color: #a16d50;*/
+                /*position: relative;*/
+                /*top: 222px;*/
+                /*padding-top: 10px;*/
+                /*text-align: center;*/
+            /*}*/
+
+            /*.domePC11-content2>div:nth-child(2){*/
+                /*margin-top: 15px;*/
+                /*width: 100%;*/
+                /*height: 320px;*/
+                /*background-color: rgba(161,109,80,0.9);*/
+            /*}*/
+            /*.domePC11-content2-2>div{*/
+                /*height: 100px;*/
+                /*display:flex;*/
+                /*align-items: center;*/
+            /*}*/
+            /*.domePC11-content2-2>div>div{*/
+                /*!*height: 112px;*!*/
+                /*margin-left: 5px;*/
+            /*}*/
+            /*!*数字*!*/
+            /*.domePC11-content2-2>div>div:first-child{*/
+                /*margin-left: 10px;*/
+                /*!*margin-right: 16px;*!*/
+                /*width: 180px;*/
+                /*text-align: center;*/
+            /*}*/
+            /*!*03*!*/
+            /*.domePC11-content2-2>div>div:first-child>p:first-child{*/
+                /*!*margin: 30px 16px 12px 20px;*!*/
+                /*font-size: 32px;*/
+                /*color: #ffffff;*/
+                /*padding: 0px;*/
+            /*}*/
+            /*.domePC11-content2-2>div>div:first-child>p:nth-child(2){*/
+                /*!*margin-top: 12px;*!*/
+                /*font-size: 15px;*/
+                /*!*margin-right: 50px;*!*/
+                /*color: #ffffff;*/
+            /*}*/
+
+            /*.domePC11-content2-2>div>div:nth-child(2)>p:first-child{*/
+                /*font-size: 18px;*/
+                /*color: #ffffff;*/
+            /*}*/
+            /*.domePC11-content2-2>div>div:nth-child(2)>p:nth-child(2){*/
+                /*font-size: 13px;*/
+                /*color: #ffffff;*/
+                /*!*margin-right: 20px;*!*/
+                /*margin-top: 8px;*/
+            /*}*/
+
+            /*.domePC12{*/
+                /*padding-top: 10px;*/
+                /*width: 100%;*/
+                /*background-color: #a06d50;*/
+            /*}*/
+            /*.domePC12-left>img{*/
+                /*display: block;*/
+                /*margin: auto;*/
+                /*margin-bottom: 30px;*/
+            /*}*/
+            /*.domePC12-left>div{*/
+                /*display: flex;*/
+                /*align-items: center;*/
+                /*justify-content: center;*/
+            /*}*/
+            /*.domePC12-left > div > div {*/
+                /*margin-left: 5px;*/
+            /*}*/
+            /*.domePC12-left > div > div > p:first-child {*/
+                /*font-size: 12px;*/
+                /*color: #ffffff;*/
+            /*}*/
+            /*.domePC12-left > div > div > p:nth-child(2) {*/
+                /*font-size: 25px;*/
+                /*color: #ffffff;*/
+            /*}*/
+
+            /*.domePC12-right>div>p{*/
+                /*display: none;*/
+            /*}*/
+            /*.domePC12-content2{*/
+                /*text-align: center;*/
+                /*color: #ffffff;*/
+                /*padding-top: 15px;*/
+                /*padding-bottom: 5px;*/
+                /*font-size: 10px;*/
+            /*}*/
+
+            /*.img1,.img2,.img3{*/
+                /*display: none;*/
+            /*}*/
+
+
+        /*}*/
+    </style>
+</head>
+<body>
+    <div class="home_page">
+        <div>
+            <div class="domePC1">
+                <div>
+                    <div class="domePC1-title">
+                        <div><img src="img/logo.png" alt=""></div>
+                        <div><img src="img/top-装饰.png" alt=""></div>
+                        <div><img src="img/top-装饰-2.png" alt=""></div>
+                        <div>
+                            <div><img src="img/top-icon-1.png" alt=""></div>
+                            <div>
+                                <p>全国招商热线</p>
+                                <p>400-800-5081</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="domePC1-nav">
+                        <div>
+                            <div><a href="首页.html">首页</a></div>
+                            <span></span>
+                            <div><a href="姥爷香简介.html">姥爷香介绍</a></div>
+                            <span></span>
+                            <div><a href="#">招商加盟</a></div>
+                            <span></span>
+                            <div><a href="产品中心.html">产品中心</a></div>
+                            <span></span>
+                            <div><a href="加盟信息.html">加盟信息</a></div>
+                            <span></span>
+                            <div><a href="最新资讯.html">最新资讯</a></div>
+                            <span></span>
+                            <div><a href="在线留言.html">在线留言</a></div>
+                            <span></span>
+                            <div><a href="联系我们.html">联系我们</a></div>
+                        </div>
+                    </div>
+                    <div class="domePC1-content">
+                        <div class="swiper-container pc1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><div></div></div>
+                                <div class="swiper-slide"><div></div></div>
+                                <div class="swiper-slide"><div></div></div>
+                                <div class="swiper-slide"><div></div></div>
+                                <div class="swiper-slide"><div></div></div>
+                                <div class="swiper-slide"><div></div></div>
+                                <div class="swiper-slide"><div></div></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domePC2">
+                <div>
+                    <div class="domePC2-title">
+                        <div>
+                            <div class="domePC2-title-1"><p>我们的优势</p></div>
+                            <div class="domePC2-br">
+                                <div></div>
+                            </div>
+                            <p class="domePC2-title-3">姥爷香油坊—加盟我们的五大优势</p>
+                        </div>
+                    </div>
+
+                    <div class="domePC2-content">
+                        <div class="domePC2-content-1">
+                            <div>
+                                <div>
+                                    <p>2017年中国管理创新先进单位</p>
+                                    <p>2017-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>2018年中国管理创新先进单位</p>
+                                    <p>2017-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>2019年中国管理创新先进单位</p>
+                                    <p>2017-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>2017年中国管理创新先进单位</p>
+                                    <p>2012-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>2011年中国管理创新先进单位</p>
+                                    <p>2017-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>2017年中国管理创新先进单位</p>
+                                    <p>2017-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>2010年中国管理创新先进单位</p>
+                                    <p>2017-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>2009年中国管理创新先进单位</p>
+                                    <p>2017-12</p>
+                                    <p>
+                                        本届大会有中国管理科学研究院企业管理创新研究所，本届大会有中国管理研究所...
+                                    </p>
+                                    <div>查看详情</div>
+                                </div>
+                                <div><img src="img/品牌荣誉-配图.png" alt=""> </div>
+                            </div>
+                        </div>
+                        <div class="domePC2-content-2">
+                            <div>
+                                <div class="swiper-container domePC2-swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                        <div class="swiper-slide"><div><img src="img/品牌荣誉-配图.png" alt=""></div></div>
+                                    </div>
+                                </div>
+                                <div class="domePC-title-2">
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next domePC2-swiper-button-next"></div>
+                                    <div class="swiper-button-prev domePC2-swiper-button-prev"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domePC3">
+                <div>
+                    <div class="domePC3-title">
+                        <p class="domePC3-title-1">加盟风采</p>
+                        <div class="domePC3-title-2">
+                            <p class="banner_left swiper-button-prev"> </p>
+                            <p class="banner_right swiper-button-next"> </p>
+                        </div>
+                    </div>
+                    <div class="domePC3-br">
+                        <div></div>
+                    </div>
+                    <p class="domePC3-p">姥爷香油坊</p>
+                    <div>
+                        <div class="domePC3-title-2-2">
+                            <p class="pc3_left swiper-button-prev"> </p>
+                            <p class="pc3_right swiper-button-next"> </p>
+                        </div>
+                        <div class="domePC3-content">
+                            <div class="swiper-container domePC3-content-2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                </div>
+                                <!--&lt;!&ndash; Add Pagination &ndash;&gt;-->
+                                <!--<div class="swiper-pagination"></div>-->
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="domePC3-mobile">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="img1">
+                <img src="img/广告条-1.png" alt="">
+            </div>
+
+            <div class="domePC4">
+                <div>
+                    <div class="domePC4-title">
+                        <p class="domePC4-title-1">门店展示</p>
+                        <div class="domePC4-title-2">
+                            <p class="banner_left swiper-button-prev"> </p>
+                            <p class="banner_right swiper-button-next"> </p>
+                        </div>
+                    </div>
+                    <div class="domePC4-br">
+                        <div></div>
+                    </div>
+                    <p class="domePC4-p">姥爷香油坊</p>
+                    <div>
+                        <div class="domePC4-title-2-2">
+                            <p class="banner_left swiper-button-prev"> </p>
+                            <p class="banner_right swiper-button-next"> </p>
+                        </div>
+                        <div class="domePC4-content">
+                            <div class="swiper-container domePC4-content-2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                    <div class="swiper-slide">
+                                    </div>
+                                </div>
+                                <!--&lt;!&ndash; Add Pagination &ndash;&gt;-->
+                                <!--<div class="swiper-pagination"></div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="domePC4-mobile">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="domePC4-guanggao"></div>
+                </div>
+            </div>
+
+            <div class="domePC5">
+                <div>
+                    <div class="domePC5-title">
+                        <p class="domePC5-title-1">加盟风采</p>
+                    </div>
+                    <div class="domePC5-br">
+                        <div></div>
+                    </div>
+                    <p class="domePC5-p">姥爷香油坊</p>
+                    <div class="domePC5-content1">
+                        <div>日常食用油</div>
+                        <div>养生食用油</div>
+                        <div>五谷养生粉</div>
+                        <div>养生大米</div>
+                        <div>更过产品</div>
+                    </div>
+                    <div class="domePC5-content2">
+                        <div>
+                            <div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>菜籽油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>菜籽油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>菜籽油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>菜籽油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>食用油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>食用油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>食用油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>食用油4L</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>养生粉</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>养生粉</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>养生粉</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>养生粉</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>大米</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>大米</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>大米</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>大米</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>更多</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>更多</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>更多</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div><img src="img/产品-1.png" alt=""></div>
+                                    <div>
+                                        <p>更多</p>
+                                        <p>菜籽油就是我们平时俗称的菜油，又叫油菜籽油、香油、是用菜籽榨出来的...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="domePC5-content3">更多详情>>></div>
+                </div>
+            </div>
+
+            <div class="img2">
+                <img src="img/广告条-3.png" alt="">
+            </div>
+
+            <div class="domePC6">
+                <div>
+                    <div class="domePC6-title">
+                        <div class="domePC6-title-1"><p>我们的优势</p></div>
+                        <div class="domePC6-br">
+                            <div></div>
+                        </div>
+                        <p class="domePC6-title-3">姥爷香油坊—加盟我们的五大优势</p>
+                    </div>
+                    <div class="domePC6-content">
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div><div></div> 01<div></div></div>
+                            <div>三代传承39年榨油技术</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div><div></div> 01<div></div></div>
+                            <div>姥爷香六大市场营销方案</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div><div></div> 01<div></div></div>
+                            <div>全程开店指导</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div><div></div> 01<div></div></div>
+                            <div>提供专业POP技术</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div><div></div> 01<div></div></div>
+                            <div>享受定制包装权益</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div><div></div> 01<div></div></div>
+                            <div>送开业大礼包</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img3">
+                 <img src="img/广告条-4.png" alt="">
+            </div>
+
+            <div class="domePC7">
+                <div>
+                    <div class="domePC7-title">
+                        <div class="domePC7-title-1"><p>市场前景</p></div>
+                        <div class="domePC7-br">
+                            <div></div>
+                        </div>
+                        <p class="domePC7-title-3">80后创业首选</p>
+                    </div>
+                    <div class="domePC7-content">
+                        <div class="domePC7-content-1">
+                            <div>人以食为天，食以油为先</div>
+                            <div>
+                                阿萨德和认定符合人体感觉房间号房间号公开，工具，发货的扩军或过多军过付付付付付付付付付付付付付付付付付付付女
+                                是否把东西才不会发的书发生那发的红包关电脑。按时发哈分公司房东那边的发挥你的身边的。阿凡达是噶发生过烦得很。
+                                是我的人头噶速度如何规范大量进口。
+                            </div>
+                            <div>查看详情</div>
+                        </div>
+                        <div class="domePC7-content-2">
+                            <div><img src="img/市场前景-配图-1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domePC8">
+                <div>
+                    <div class="domePC8-title">
+                        <div class="domePC8-title-1"><p>我们的优势</p></div>
+                        <div class="domePC8-br">
+                            <div></div>
+                        </div>
+                        <p class="domePC8-title-3">姥爷香油坊—加盟我们的五大优势</p>
+                    </div>
+                    <div class="domePC8-content">
+                        <div class="domePC8-content1">
+                            <div>
+                                <div>
+                                    <p>选址支持</p>
+                                    <p>总部专业指导意见，总部专业指导意见，总部专业指导意见总部专业指导意见总部专业指导意见</p>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>选址支持</p>
+                                    <p>总部专业指导意见，总部专业指导意见，总部专业指导意见总部专业指导意见总部专业指导意见</p>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>选址支持</p>
+                                    <p>总部专业指导意见，总部专业指导意见，总部专业指导意见总部专业指导意见总部专业指导意见</p>
+                                </div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="domePC8-content2"></div>
+                        <div class="domePC8-content3">
+                            <div>
+                                <div></div>
+                                <div>
+                                    <p>选址支持</p>
+                                    <p>总部专业指导意见，总部专业指导意见，总部专业指导意见总部专业指导意见总部专业指导意见</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div>
+                                    <p>选址支持</p>
+                                    <p>总部专业指导意见，总部专业指导意见，总部专业指导意见总部专业指导意见总部专业指导意见</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div></div>
+                                <div>
+                                    <p>选址支持</p>
+                                    <p>总部专业指导意见，总部专业指导意见，总部专业指导意见总部专业指导意见总部专业指导意见</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domePC9">
+                <div>
+                    <div class="domePC9-title">
+                        <div class="domePC9-title-1"><img src="img/加盟.png" alt=""><p>加盟流程</p></div>
+                        <div class="domePC9-br">
+                            <div></div>
+                        </div>
+                        <p class="domePC9-title-3">80后创业首选，加入我们</p>
+                    </div>
+                    <div class="domePC9-content">
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div>01</div>
+                            <div>近两年一成熟</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div>1</div>
+                            <div>万分之一产比</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div>1</div>
+                            <div>红颜不是祸水</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div>1</div>
+                            <div>红颜不是祸水</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div>1</div>
+                            <div>红颜不是祸水</div>
+                        </div>
+                        <div>
+                            <img src="img/加盟风采-配图-1.png" alt="">
+                            <div>1</div>
+                            <div>红颜不是祸水</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domePC10">
+                <div>
+                    <div class="domePC10-first">
+                        <div class="domePC10-title">
+                            <div class="domePC10-title-1"><p>关于姥爷香</p></div>
+                            <div class="domePC10-br">
+                                <div></div>
+                            </div>
+                            <p class="domePC10-title-3">现榨油坊领军品牌</p>
+                        </div>
+                        <div class="domePC10-content">
+                            <div class="domePC10-content-1">
+                                <div><img src="img/市场前景-配图-1.png" alt=""></div>
+                            </div>
+                            <div class="domePC10-content-2">
+                                <div>姥爷香油坊</div>
+                                <div class="domePC10-content-2-br"><div></div></div>
+                                <div>
+                                    阿萨德和认定符合人体感觉房间号房间号公开，工具，发货的扩军或过多军过付付付付付付付付付付付付付付付付付付付女
+                                    是否把东西才不会发的书发生那发的红包关电脑。按时发哈分公司房东那边的发挥你的身边的。阿凡达是噶发生过烦得很。
+                                    是我的人头噶速度如何规范大量进口。
+                                </div>
+                                <div>查看详情</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="domePC10-second">
+                        <div class="domePC10-second-title">
+                            <div class="domePC10-second-title-1"><img src="img/加盟.png" alt=""><p>加盟流程</p></div>
+                            <div class="domePC10-second-br">
+                                <div></div>
+                            </div>
+                            <p class="domePC10-second-title-3">80后创业首选，加入我们</p>
+                        </div>
+                        <div class="domePC10-second-content">
+                            <div class="domePC10-second-content-1">
+                                <div>
+                                    <div></div>
+                                    <div>开个榨油坊怎么样？</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>开个榨油坊怎么样？</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>开个榨油坊怎么样？</div>
+                                </div>
+                            </div>
+                            <div class="domePC10-second-content-2">
+                                <div>
+                                    <div></div>
+                                    <div>现在生活水平提高，可是饮食参评安全隐患也多，电大厦工地发生股份...</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>现在生活水平提高，可是饮食参评安全隐患也多，电大厦工地发生股份...</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div>现在生活水平提高，可是饮食参评安全隐患也多，电大厦工地发生股份...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domePC11">
+                <div>
+                    <div class="domePC11-title">
+                        <p class="domePC11-title-1">加盟风采</p>
+                    </div>
+                    <div class="domePC11-br">
+                        <div></div>
+                    </div>
+                    <p class="domePC11-p">姥爷香油坊</p>
+                    <div class="domePC11-content1">
+                        <div>公司动态</div>
+                        <div>行业知识</div>
+                        <div>常见问题</div>
+                    </div>
+                    <div class="domePC11-content2">
+                        <div>
+                            <p>开个榨油坊怎么样？</p>
+                        </div>
+                        <div class="domePC11-content2-2">
+                            <div>
+                                <div>
+                                    <p>03</p>
+                                    <p>2018-01</p>
+                                </div>
+                                <div>
+                                    <p>开个榨油坊怎么样？</p>
+                                    <p>
+                                        现在的生活水平提高，可饮食水平现在的生活水平提高，可饮食水平现在的生活水平提高，可饮食水平现在
+                                        的生活水平提高，可饮食水平
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>03</p>
+                                    <p>2018-01</p>
+                                </div>
+                                <div>
+                                    <p>开个榨油坊怎么样？</p>
+                                    <p>
+                                        现在的生活水平提高，可饮食水平现在的生活水平提高，可饮食水平现在的生活水平提高，可饮食水平现在
+                                        的生活水平提高，可饮食水平
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <p>03</p>
+                                    <p>2018-01</p>
+                                </div>
+                                <div>
+                                    <p>开个榨油坊怎么样？</p>
+                                    <p>
+                                        现在的生活水平提高，可饮食水平现在的生活水平提高，可饮食水平现在的生活水平提高，可饮食水平现在
+                                        的生活水平提高，可饮食水平
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="domePC12">
+        <div>
+            <div class="domePC12-content">
+                <div class="domePC12-left">
+                    <img src="img/foot-logo.png" alt="">
+                    <div>
+                        <img src="img/foot-icon-1.png" alt="">
+                        <div>
+                            <p>全国招商热线</p>
+                            <p>400-800-5081</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="domePC12-right">
+                    <div>
+                        <p>姥爷香介绍</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                    </div>
+                    <div>
+                        <p>招商加盟</p>
+                        <p> 招商加盟</p>
+                    </div>
+                    <div>
+                        <p>产品中心</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                    </div>
+                    <div>
+                        <p>姥爷香介绍</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                    </div>
+                    <div>
+                        <p>姥爷香介绍</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                    </div>
+                    <div>
+                        <p>姥爷香介绍</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                    </div>
+                    <div>
+                        <p>姥爷香介绍</p>
+                        <p> 公司简介</p>
+                        <p>品牌文化</p>
+                    </div>
+                </div>
+            </div>
+            <div class="domePC12-content2">©2017 安徽姥爷香企业管理咨询有限公司 版权所有</div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.domePC2-swiper-container', {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        freeMode: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.domePC2-swiper-button-next',
+            prevEl: '.domePC2-swiper-button-prev',
+        },
+    });
+
+    var swiper = new Swiper('.pc1', {
+//        pagination:'.domePC1-content .swiper-container',
+        spaceBetween: 15,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.pc1 .swiper-pagination',
+            clickable: true,
+        }
+    });
+
+    var swiper = new Swiper('.domePC3-content-2', {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        freeMode: true,
+        navigation: {
+            nextEl: '.pc3_right',
+            prevEl: '.pc3_left',
+        },
+
+        breakpoints: {
+            1920: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            }
+        }
+    });
+
+    var swiper = new Swiper('.domePC4-content-2', {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        freeMode: true,
+        navigation: {
+            nextEl: '.banner_right',
+            prevEl: '.banner_left',
+        },
+
+        breakpoints: {
+            1920: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            }
+        }
+    });
+
+    var imgs1 = $(".domePC2-content-2 .domePC2-swiper-container > div").children("div");
+
+    var infos1 = $(".domePC2-content-1").children("div");
+
+    imgs1.each(function(n){
+        $(this).click(function(){
+            infos1.hide();
+            infos1.eq(n).show();
+        })
+    });
+
+    var imgs = $(".domePC5-content1").children("div");
+
+    var infos = $(".domePC5-content2").children("div");
+
+    imgs.each(function(n){
+        $(this).click(function(){
+            infos.hide();
+            infos.eq(n).show();
+        })
+    });
+</script>
+
+</body>
+</html>
