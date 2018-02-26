@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>最新资讯</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        @media screen and (min-width: 480px) {
+            .domePC1 {
+                min-width: 1200px;
+            }
+
+            .domePC1>div{
+                width: 100%;
+            }
+
+            .domePC1-title {
+                width: 1200px;
+                height: 110px;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .domePC1-title > div:nth-child(2) {
+                margin-right: 20px;
+            }
+
+            .domePC1-title > div:nth-child(4) {
+                margin-left: 400px;
+                display: flex;
+                align-items: center;
+            }
+
+            .domePC1-title > div:nth-child(4) > div:nth-child(2) {
+                margin-left: 8px;
+            }
+
+            .domePC1-title > div:nth-child(4) > div:nth-child(2) > p:first-child {
+                font-size: 16px;
+                color: #333333;
+            }
+
+            .domePC1-title > div:nth-child(4) > div:nth-child(2) > p:nth-child(2) {
+                font-size: 32px;
+                color: #e70012;
+            }
+
+            .domePC1-nav {
+                height: 48px;
+                background-color: #d00010;
+                width: 100%;
+            }
+
+            .domePC1-nav > div {
+                width: 1200px;
+                /*height: 48px;*/
+                margin: auto;
+                display: flex;
+                align-items: center;
+                /*text-align: center;*/
+            }
+
+            .domePC1-nav > div > div {
+                height: 36px;
+                padding-top: 12px;
+                color: #f5f5f5;
+                font-size: 16px;
+                width: 150px;
+                text-align: center;
+            }
+
+            .domePC1-nav > div > div:hover {
+                color: #d00010;
+                font-size: 16px;
+                background-color: #f3bd8c;
+            }
+
+            .domePC1-nav > div > span {
+                width: 1px;
+                height: 16px;
+                background-color: #ffffff;
+            }
+            .domePC1>div>img{
+                width: 100%;
+                height: 320px;
+            }
+
+            .dome_zui{
+                min-width: 1200px;
+            }
+            .dome_zui-1-1{
+                margin-top: 80px;
+                margin-bottom: 60px;
+                display: flex;
+                justify-content: center;
+            }
+            .dome_zui-1-1>div:first-child{
+                width: 75px;
+                height: 30px;
+                background: url("img/二级-标题装饰-1.png");
+                background-size: 75px 30px;
+            }
+            .dome_zui-1-1>p{
+                font-size: 32px;
+                color: #a16d50;
+                font-family: "宋体";
+                line-height: 70px;
+                text-align: center;
+                margin-left: -50px;
+            }
+            .dome_zui-1-1>div:nth-child(3){
+                width: 75px;
+                height: 30px;
+                background: url("img/二级-标题装饰-2.png");
+                background-size: 75px 30px;
+                margin-left: -50px;
+                margin-top: 40px;
+            }
+            .dome_zui-1-2{
+                margin-bottom: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .dome_zui-1-2>div{
+                margin-right: 16px;
+                width: 140px;
+                height: 36px;
+                border: 1px solid #e70012;
+                border-radius: 2px;
+                color: #e70012;
+                font-size: 14px;
+                line-height: 36px;
+                text-align: center;
+            }
+            .dome_zui-1-2>div:hover,.dome_zui-1-2>div:active{
+                background-color: #e70012;
+                color: #f5f5f5;
+            }
+            .dome_zui-1-2>div:nth-child(2):hover .dome_zui-1-3-b{
+                /*opacity: 1;*/
+                display: block;
+            }
+            .dome_zui-1-3-b,.dome_zui-1-3-c{
+                display: none;
+                /*opacity: 0;*/
+            }
+
+            .dome_zui-1-3-a,.dome_zui-1-3-b,.dome_zui-1-3-c{
+                width: 1200px;
+                margin: auto;
+            }
+            .dome_zui-1-3-a>div,.dome_zui-1-3-b>div,.dome_zui-1-3-c>div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 16px;
+                border-bottom: 1px dashed #e70012;
+                margin-top: 16px;
+            }
+            .dome_zui-1-3-a>div>div:first-child,.dome_zui-1-3-b>div>div:first-child,.dome_zui-1-3-c>div>div:first-child{
+                width: 78px;
+                height: 78px;
+                background-color: #e70012;
+                color: #ffffff;
+                /*line-height: 78px;*/
+                text-align: center;
+            }
+            .dome_zui-1-3-a>div>div:first-child>p:first-child,.dome_zui-1-3-b>div>div:first-child>p:first-child,
+            .dome_zui-1-3-c>div>div:first-child>p:first-child{
+                font-size: 36px;
+            }
+            .dome_zui-1-3-a>div>div:first-child>p:nth-child(2),.dome_zui-1-3-b>div>div:first-child>p:nth-child(2),
+            .dome_zui-1-3-c>div>div:first-child>p:nth-child(2){
+                /*margin-top: 12px;*/
+                font-size: 14px;
+            }
+            .dome_zui-1-3-a>div>div:nth-child(2),.dome_zui-1-3-b>div>div:nth-child(2),.dome_zui-1-3-c>div>div:nth-child(2){
+                width: 1099px;
+                margin-left: 24px;
+            }
+            .dome_zui-1-3-a>div>div:nth-child(2)>p:first-child,.dome_zui-1-3-b>div>div:nth-child(2)>p:first-child,
+            .dome_zui-1-3-c>div>div:nth-child(2)>p:first-child{
+                font-size: 18px;
+                color: #333333;
+            }
+            .dome_zui-1-3-a>div>div:nth-child(2)>p:nth-child(2),.dome_zui-1-3-b>div>div:nth-child(2)>p:nth-child(2),
+            .dome_zui-1-3-c>div>div:nth-child(2)>p:nth-child(2){
+                font-size: 14px;
+                color: #666666;
+                margin-top: 16px;
+                width: 1060px;
+            }
+
+
+
+            .domePC12{
+                margin-top: 20px;
+                min-width: 1200px;
+            }
+            .domePC12>div{
+                width: 100%;
+                height: 326px;
+                background-color: #a06d50;
+            }
+            .domePC12-content {
+                width: 100%;
+                height: 290px;
+                display: flex;
+                align-items: center;
+                /*justify-content: center;*/
+            }
+
+            .domePC12-left {
+                /*margin-right: 100px;*/
+                margin-left: 20px;
+            }
+
+            .domePC12-left > img {
+                margin-bottom: 34px;
+            }
+
+            .domePC12-left > div {
+                display: flex;
+                align-items: center;
+            }
+
+            .domePC12-left > div > div {
+                margin-left: 5px;
+            }
+
+            .domePC12-left > div > div > p:first-child {
+                font-size: 16px;
+                color: #ffffff;
+            }
+
+            .domePC12-left > div > div > p:nth-child(2) {
+                font-size: 32px;
+                color: #ffffff;
+            }
+
+            .domePC12-right {
+                display: flex;
+                align-items: flex-start;
+                margin-left: 80px;
+            }
+
+            .domePC12-right > div {
+                margin-right: 35px;
+                width: 80px;
+            }
+
+            .domePC12-right > div > p:first-child {
+                margin-top: 32px;
+                font-size: 16px;
+                color: #ffffff;
+                /*border-bottom: 2px solid #ffdc1d;*/
+                padding-bottom: 5px;
+                border-bottom: 2px solid #ffdc1d;
+
+            }
+
+            .domePC12-right > div > p {
+                text-align: center;
+                font-size: 14px;
+                color: #ffffff;
+                margin-top: 8px;
+            }
+            .domePC12-content2{
+                text-align: center;
+                color: #ffffff;
+                font-size: 10px;
+                padding-top: 10px;
+            }
+
+        }
+        @media screen and (max-width: 479px) {
+            .domePC1 {
+                width: 100%;
+            }
+
+            .domePC1-title {
+                width: 100%;
+                height: 90px;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .domePC1-title > div:nth-child(2),.domePC1-title > div:nth-child(3),.domePC1-nav> div> span:nth-child(2),.domePC1-nav>div> span:nth-child(4){
+                margin-right: 20px;
+                display: none;
+            }
+            .domePC1-title > div:nth-child(4) {
+                margin-right: 10px;
+                display: flex;
+                align-items: center;
+            }
+            .domePC1-title > div:nth-child(4) > div:nth-child(2) {
+                margin-left: 4px;
+            }
+            .domePC1-title > div:nth-child(4) > div:nth-child(2) > p:first-child {
+                font-size: 10px;
+                color: #333333;
+            }
+            .domePC1-title > div:nth-child(4) > div:nth-child(2) > p:nth-child(2) {
+                font-size: 18px;
+                color: #e70012;
+            }
+
+            .domePC1-nav {
+                height: 30px;
+                background-color: #d00010;
+                width: 100%;
+            }
+            .domePC1-nav > div {
+                width: 100%;
+                /*height: 48px;*/
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /*text-align: center;*/
+            }
+            .domePC1-nav > div>div:nth-child(3),.domePC1-nav > div>div:nth-child(4),.domePC1-nav > div>div:nth-child(5){
+                display: none;
+            }
+            .domePC1-nav > div > div {
+                height: 26px;
+                padding-top: 6px;
+                color: #f5f5f5;
+                font-size: 10px;
+                width: 65px;
+                text-align: center;
+            }
+            .domePC1-nav > div > div:hover {
+                color: #d00010;
+                /*font-size: 16px;*/
+                background-color: #f3bd8c;
+            }
+            .domePC1-nav > div > span {
+                width: 1px;
+                height: 16px;
+                background-color: #ffffff;
+            }
+            .domePC1> div >img{
+                width: 100%;
+                height: 100px;
+            }
+
+            .dome_zui{
+                /*min-width: 1200px;*/
+
+                width: 100%;
+            }
+            .dome_zui-1-1{
+                margin-top: 30px;
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: center;
+            }
+            .dome_zui-1-1>div:first-child{
+                width: 55px;
+                height: 20px;
+                background: url("img/二级-标题装饰-1.png");
+                background-size: 55px 20px;
+            }
+            .dome_zui-1-1>p{
+                font-size: 22px;
+                color: #a16d50;
+                font-family: "宋体";
+                line-height: 50px;
+                text-align: center;
+                margin-left: -40px;
+            }
+            .dome_zui-1-1>div:nth-child(3){
+                width: 55px;
+                height: 20px;
+                background: url("img/二级-标题装饰-2.png");
+                background-size: 55px 20px;
+                margin-left: -40px;
+                margin-top: 25px;
+            }
+            .dome_zui-1-2{
+                padding-left: 8px;
+                margin-bottom: 45px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .dome_zui-1-2>div{
+                margin-right: 8px;
+                width: 140px;
+                height: 36px;
+                border: 1px solid #e70012;
+                border-radius: 2px;
+                color: #e70012;
+                font-size: 14px;
+                line-height: 36px;
+                text-align: center;
+            }
+            .dome_zui-1-2>div:hover,.dome_zui-1-2>div:active{
+                background-color: #e70012;
+                color: #f5f5f5;
+            }
+            .dome_zui-1-3-a,.dome_zui-1-3-b,.dome_zui-1-3-c{
+                width: 100%;
+                margin: auto;
+            }
+            .dome_zui-1-3-a>div,.dome_zui-1-3-b>div,.dome_zui-1-3-c>div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 16px;
+                border-bottom: 1px dashed #e70012;
+                margin-top: 16px;
+            }
+            .dome_zui-1-3-a>div>div:first-child,.dome_zui-1-3-b>div>div:first-child,.dome_zui-1-3-c>div>div:first-child{
+                margin-left: 3px;
+                width: 78px;
+                height: 78px;
+                background-color: #e70012;
+                color: #ffffff;
+                /*line-height: 78px;*/
+                text-align: center;
+            }
+            .dome_zui-1-3-a>div>div:first-child>p:first-child, .dome_zui-1-3-b>div>div:first-child>p:first-child,
+            .dome_zui-1-3-c>div>div:first-child>p:first-child{
+                font-size: 26px;
+            }
+            .dome_zui-1-3-a>div>div:first-child>p:nth-child(2),.dome_zui-1-3-b>div>div:first-child>p:nth-child(2),
+            .dome_zui-1-3-c>div>div:first-child>p:nth-child(2){
+                /*margin-top: 12px;*/
+                font-size: 12px;
+            }
+            .dome_zui-1-3-a>div>div:nth-child(2),.dome_zui-1-3-b>div>div:nth-child(2),.dome_zui-1-3-c>div>div:nth-child(2){
+                width: 80%;
+                margin-left: 12px;
+            }
+            .dome_zui-1-3-a>div>div:nth-child(2)>p:first-child,.dome_zui-1-3-b>div>div:nth-child(2)>p:first-child,
+            .dome_zui-1-3-c>div>div:nth-child(2)>p:first-child{
+                font-size: 16px;
+                color: #333333;
+            }
+            .dome_zui-1-3-a>div>div:nth-child(2)>p:nth-child(2),.dome_zui-1-3-b>div>div:nth-child(2)>p:nth-child(2),
+            .dome_zui-1-3-c>div>div:nth-child(2)>p:nth-child(2){
+                font-size: 12px;
+                color: #666666;
+                margin-top: 16px;
+                /*width: 1060px;*/
+            }
+            .dome_zui-1-3-a,dome_zui-1-3-b,dome_zui-1-3-c{
+                dic
+            }
+
+
+
+            .domePC12{
+                margin-top: 20px;
+                padding-top: 10px;
+                width: 100%;
+                background-color: #a06d50;
+            }
+            .domePC12-left>img{
+                display: block;
+                margin: auto;
+                margin-bottom: 30px;
+            }
+            .domePC12-left>div{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .domePC12-left > div > div {
+                margin-left: 5px;
+            }
+            .domePC12-left > div > div > p:first-child {
+                font-size: 12px;
+                color: #ffffff;
+            }
+            .domePC12-left > div > div > p:nth-child(2) {
+                font-size: 25px;
+                color: #ffffff;
+            }
+
+            .domePC12-right>div>p{
+                display: none;
+            }
+            .domePC12-content2{
+                text-align: center;
+                color: #ffffff;
+                padding-top: 15px;
+                padding-bottom: 5px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+<div class="domePC1">
+    <div>
+        <div class="domePC1-title">
+            <div><img src="img/logo.png" alt=""></div>
+            <div><img src="img/top-装饰.png" alt=""></div>
+            <div><img src="img/top-装饰-2.png" alt=""></div>
+            <div>
+                <div><img src="img/top-icon-1.png" alt=""></div>
+                <div>
+                    <p>全国招商热线</p>
+                    <p>400-800-5081</p>
+                </div>
+            </div>
+        </div>
+        <div class="domePC1-nav">
+            <div>
+                <div><a href="首页.html">首页</a></div>
+                <span></span>
+                <div><a href="姥爷香简介.html">姥爷香介绍</a></div>
+                <span></span>
+                <div><a href="#">招商加盟</a></div>
+                <span></span>
+                <div><a href="产品中心.html">产品中心</a></div>
+                <span></span>
+                <div><a href="加盟信息.html">加盟信息</a></div>
+                <span></span>
+                <div><a href="最新资讯.html">最新资讯</a></div>
+                <span></span>
+                <div><a href="在线留言.html">在线留言</a></div>
+                <span></span>
+                <div><a href="联系我们.html">联系我们</a></div>
+            </div>
+        </div>
+        <img src="img/二级-banner.png" alt="">
+    </div>
+</div>
+
+<div class="dome_zui">
+    <div class="dome_zui-1">
+        <div class="dome_zui-1-1">
+            <div></div>
+            <p>最新资讯</p>
+            <div></div>
+        </div>
+        <div class="dome_zui-1-2">
+            <div>公司动态</div>
+            <div>行业知识</div>
+            <div>常见问题</div>
+        </div>
+        <div class="dome_zui-1-3">
+            <div class="dome_zui-1-3-a">
+                <div>
+                    <div>
+                        <p>10</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>10</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>10</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="dome_zui-1-3-b">
+                <div>
+                    <div>
+                        <p>11</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>11</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>11</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="dome_zui-1-3-c">
+                <div>
+                    <div>
+                        <p>12</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>12</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>10</p>
+                        <p>2018-01</p>
+                    </div>
+                    <div>
+                        <p>开个榨油坊怎么样？现在开榨油坊利润大不大？</p>
+                        <p>
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                            现在生活水平提高，可是饮食产品安群隐患也越来越多。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="domePC12">
+    <div>
+        <div class="domePC12-content">
+            <div class="domePC12-left">
+                <img src="img/foot-logo.png" alt="">
+                <div>
+                    <img src="img/foot-icon-1.png" alt="">
+                    <div>
+                        <p>全国招商热线</p>
+                        <p>400-800-5081</p>
+                    </div>
+                </div>
+            </div>
+            <div class="domePC12-right">
+                <div>
+                    <p>姥爷香介绍</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                </div>
+                <div>
+                    <p>招商加盟</p>
+                    <p> 招商加盟</p>
+                </div>
+                <div>
+                    <p>产品中心</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                </div>
+                <div>
+                    <p>姥爷香介绍</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                </div>
+                <div>
+                    <p>姥爷香介绍</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                </div>
+                <div>
+                    <p>姥爷香介绍</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                </div>
+                <div>
+                    <p>姥爷香介绍</p>
+                    <p> 公司简介</p>
+                    <p>品牌文化</p>
+                </div>
+            </div>
+        </div>
+        <div class="domePC12-content2">©2017 安徽姥爷香企业管理咨询有限公司 版权所有</div>
+    </div>
+</div>
+
+<script>
+
+    var imgs = $(".dome_zui-1-2").children("div");
+
+    var infos = $(".dome_zui-1-3").children("div");
+
+    imgs.each(function(n){
+        $(this).click(function(){
+            infos.hide();
+            infos.eq(n).show();
+        })
+    });
+
+</script>
+
+</body>
+</html>
